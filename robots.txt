@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# ملفات النظام لا فائدة من زحفها
+Disallow: /partials/
+Disallow: /data/
+Disallow: /_backup/
+
+# ملاحظة: صفحة /baht/ غير محجوبة هنا عمدًا.
+# هي تحمل وسم noindex في الصفحة نفسها، وحجبها في robots.txt يمنع جوجل
+# من رؤية ذلك الوسم، كما يمنعه من اكتشاف روابط المقالات التي تتضمنها.
+
+Sitemap: https://tarbiaa.ma/sitemap.xml
+Sitemap: https://tarbiaa.ma/rss.xml

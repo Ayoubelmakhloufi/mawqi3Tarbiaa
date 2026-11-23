@@ -1,0 +1,2242 @@
+{
+ "archiveItem": "tarbiaa-wathaiq-tarbawiya",
+ "archiveBase": "https://archive.org/download/tarbiaa-wathaiq-tarbawiya",
+ "localBase": "/assets/files",
+ "sections": [
+  {
+   "slug": "mithaq",
+   "code": "01",
+   "title": "الميثاق الوطني للتربية والتكوين",
+   "icon": "fa-scroll",
+   "tint": "amber"
+  },
+  {
+   "slug": "rouya",
+   "code": "02",
+   "title": "الرؤية الاستراتيجية للإصلاح 2015-2030",
+   "icon": "fa-compass",
+   "tint": "sky"
+  },
+  {
+   "slug": "qanoun-51-17",
+   "code": "03",
+   "title": "القانون الإطار رقم 51.17",
+   "icon": "fa-scale-balanced",
+   "tint": "indigo"
+  },
+  {
+   "slug": "kharita",
+   "code": "04",
+   "title": "خارطة الطريق 2022-2026",
+   "icon": "fa-route",
+   "tint": "emerald"
+  },
+  {
+   "slug": "manahij",
+   "code": "05",
+   "title": "المناهج والبرامج والتوجيهات التربوية",
+   "icon": "fa-book-open",
+   "tint": "teal"
+  },
+  {
+   "slug": "tawjih",
+   "code": "06",
+   "title": "التوجيه المدرسي والمهني",
+   "icon": "fa-signs-post",
+   "tint": "orange"
+  },
+  {
+   "slug": "taqwim",
+   "code": "07",
+   "title": "التقويم والأطر المرجعية للامتحانات",
+   "icon": "fa-clipboard-check",
+   "tint": "rose"
+  },
+  {
+   "slug": "mobadarat",
+   "code": "08",
+   "title": "المبادرات الملكية",
+   "icon": "fa-crown",
+   "tint": "lime"
+  }
+ ],
+ "docs": [
+  {
+   "s": "mithaq",
+   "t": "الميثاق الوطني للتربية والتكوين — النسخة العربية",
+   "f": "almythaq-alwtny-lltrbya-waltkwyn-alnskha-alarbya.pdf",
+   "kb": 1023,
+   "h": "local"
+  },
+  {
+   "s": "mithaq",
+   "t": "الميثاق الوطني للتربية والتكوين — النسخة الفرنسية",
+   "f": "almythaq-alwtny-lltrbya-waltkwyn-alnskha-alfrnsya.pdf",
+   "kb": 360,
+   "h": "local"
+  },
+  {
+   "s": "rouya",
+   "t": "الرؤية الاستراتيجية للإصلاح 2015-2030 — النسخة العربية",
+   "f": "alroya-alastratyjya-llislah-2015-2030-alnskha-alarbya.pdf",
+   "kb": 717,
+   "h": "local"
+  },
+  {
+   "s": "rouya",
+   "t": "الرؤية الاستراتيجية للإصلاح 2015-2030 — النسخة الفرنسية",
+   "f": "alroya-alastratyjya-llislah-2015-2030-alnskha-alfrnsya.pdf",
+   "kb": 456,
+   "h": "local"
+  },
+  {
+   "s": "qanoun-51-17",
+   "t": "القانون الإطار رقم 51.17 — النسخة العربية",
+   "f": "alqanwn-alitar-rqm-51.17-alnskha-alarbya.pdf",
+   "kb": 1625,
+   "h": "local"
+  },
+  {
+   "s": "qanoun-51-17",
+   "t": "القانون الإطار رقم 51.17 — النسخة الفرنسية",
+   "f": "alqanwn-alitar-rqm-51.17-alnskha-alfrnsya.pdf",
+   "kb": 1555,
+   "h": "local"
+  },
+  {
+   "s": "kharita",
+   "t": "خارطة الطريق 2022-2026 — النسخة العربية",
+   "f": "kharta-altryq-2022-2026-alnskha-alarbya.pdf",
+   "kb": 1838,
+   "h": "local"
+  },
+  {
+   "s": "kharita",
+   "t": "خارطة الطريق 2022-2026 — النسخة الفرنسية",
+   "f": "kharta-altryq-2022-2026-alnskha-alfrnsya.pdf",
+   "kb": 1548,
+   "h": "local"
+  },
+  {
+   "s": "kharita",
+   "t": "عرض حول إعداديات الريادة",
+   "f": "ard-hwl-iadadyat-alryada.pdf",
+   "kb": 3118,
+   "h": "archive"
+  },
+  {
+   "s": "kharita",
+   "t": "عرض حول مؤسسات الريادة",
+   "f": "ard-hwl-mossat-alryada.pdf",
+   "kb": 4399,
+   "h": "archive"
+  },
+  {
+   "s": "manahij",
+   "t": "33",
+   "f": "33.pdf",
+   "kb": 179,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "34",
+   "f": "34.pdf",
+   "kb": 268,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "35",
+   "f": "35.pdf",
+   "kb": 113,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "36",
+   "f": "36.pdf",
+   "kb": 555,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "37",
+   "f": "37.pdf",
+   "kb": 543,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "38",
+   "f": "38.pdf",
+   "kb": 656,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "39",
+   "f": "39.pdf",
+   "kb": 389,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "40",
+   "f": "40.pdf",
+   "kb": 309,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "41",
+   "f": "41.pdf",
+   "kb": 477,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "42",
+   "f": "42.pdf",
+   "kb": 317,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "43",
+   "f": "43.pdf",
+   "kb": 244,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "44",
+   "f": "44.pdf",
+   "kb": 212,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "45",
+   "f": "45.pdf",
+   "kb": 944,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "46",
+   "f": "46.pdf",
+   "kb": 492,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "47",
+   "f": "47.pdf",
+   "kb": 342,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "48",
+   "f": "48.pdf",
+   "kb": 1470,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "49",
+   "f": "49.pdf",
+   "kb": 843,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "50",
+   "f": "50.pdf",
+   "kb": 445,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بتدريس المواد الإسلامية بسلك التعليم الثانوي التأهيلي الأصيل",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-btdrys-almwad-alisl.pdf",
+   "kb": 492,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بتدريس مادة الترجمة بسلك الباكالوريا",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-btdrys-mada-altrjma.pdf",
+   "kb": 445,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بتدريس مادة الفلسفة بسلك التعليم الثانوي التأهيلي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-btdrys-mada-alflsfa.pdf",
+   "kb": 342,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بتدريس مادة الفيزياء والكيمياء بسلك التعليم الثانوي التأهيلي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-btdrys-mada-alfyzya.pdf",
+   "kb": 1470,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بتدريس مادة علوم الحياة والأرض بسلك التعليم الثانوي التأهيلي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-btdrys-mada-alwm-al.pdf",
+   "kb": 843,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة الاجتماعيات بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-alajtmaayat-b.pdf",
+   "kb": 657,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة التربية البدنية والرياضية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-altrbya-albdn.pdf",
+   "kb": 1041,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة التربية التشكيلية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-altrbya-altch.pdf",
+   "kb": 720,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة التربية الموسيقية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-altrbya-almws.pdf",
+   "kb": 723,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة التكنولوجيا الصناعية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-altknwlwjya-a.pdf",
+   "kb": 825,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة الرياضيات بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-alryadyat-bsl.pdf",
+   "kb": 487,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة الرياضيات بسلك التعليم الثانوي التأهيلي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-alryadyat-bsl-d46f.pdf",
+   "kb": 944,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة الفيزياء والكيمياء بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-alfyzyaa-walk.pdf",
+   "kb": 887,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة اللغة الألمانية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-allgha-alalma.pdf",
+   "kb": 5314,
+   "h": "archive"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة اللغة الإيطالية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-allgha-aliyta.pdf",
+   "kb": 454,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة اللغة الاسبانية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-allgha-alasba.pdf",
+   "kb": 619,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة اللغة الانجليزية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-allgha-alanjl.pdf",
+   "kb": 977,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة اللغة العربية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-allgha-alarby.pdf",
+   "kb": 562,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة اللغة الفرنسية بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-allgha-alfrns.pdf",
+   "kb": 1149,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة المعلوميات بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-almalwmyat-bs.pdf",
+   "kb": 602,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "البرامج والتوجيهات التربوية الخاصة بمادة علوم الحياة والأرض بسلك التعليم الثانوي الإعدادي",
+   "f": "albramj-waltwjyhat-altrbwya-alkhasa-bmada-alwm-alhyaa-w.pdf",
+   "kb": 920,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس بمادة اللغة الألمانية بسلك التعليم الثانوي التأهيلي",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-bmada-allgha.pdf",
+   "kb": 309,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس بمادة اللغة الإيطالية بالتعليم الثانوي التأهيلي",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-bmada-allgha-3093.pdf",
+   "kb": 212,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس بمادة اللغة الاسبانية بسلك التعليم الثانوي التأهيلي",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-bmada-allgha-20f6.pdf",
+   "kb": 389,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس بمادة اللغة الانجليزية بسلك التعليم الثانوي التأهيلي",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-bmada-allgha-41f4.pdf",
+   "kb": 656,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس بمادة اللغة العربية بالتعليم الثانوي التأهيلي الأصيل",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-bmada-allgha-ad1c.pdf",
+   "kb": 317,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس بمادة اللغة العربية بسلك التعليم الثانوي التأهيلي",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-bmada-allgha-b9b0.pdf",
+   "kb": 477,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس بمادة اللغة الفرنسية بالتعليم الثانوي التأهيلي",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-bmada-allgha-3bfe.pdf",
+   "kb": 244,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس مادة التربية البدنية والرياضية بسلك التعليم الثانوي التأهيلي",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-mada-altrbya.pdf",
+   "kb": 555,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس مادة التوثيق بالتعليم الثانوي التأهيلي الأصيل",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-mada-altwthy.pdf",
+   "kb": 179,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس مادة الثقافة الفنية بالسنة الأولى من سلك البكالوريا",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-mada-althqaf.pdf",
+   "kb": 113,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس مادة الفنون التطبيقية بالتعليم التقني",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-mada-alfnwn.pdf",
+   "kb": 268,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "التوجيهات التربوية والبرامج الخاصة بتدريس مادتي التاريخ والجغرافيا بسلك التعليم الثانوي التأهيلي",
+   "f": "altwjyhat-altrbwya-walbramj-alkhasa-btdrys-madty-altary.pdf",
+   "kb": 543,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "تحيين الكتب المدرسية ملحق دفتر التحملات الخاص باللغة العربية",
+   "f": "thyyn-alktb-almdrsya-mlhq-dftr-althmlat-alkhas-ballgha.pdf",
+   "kb": 880,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "دفتر التحملات الإطار المتعلق بتأليف وإنتاج الكتب المدرسية للتعليم الابتدائي",
+   "f": "dftr-althmlat-alitar-almtalq-btalyf-wintaj-alktb-almdrs.pdf",
+   "kb": 5715,
+   "h": "archive"
+  },
+  {
+   "s": "manahij",
+   "t": "دفتر التحملات الإطار المتعلق بتأليف وإنتاج الكتب المدرسية للسنة الثانية من سلك البكالوريا",
+   "f": "dftr-althmlat-alitar-almtalq-btalyf-wintaj-alktb-almdrs-2559.pdf",
+   "kb": 510,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "معطيات وإحصائيات بخصوص الكتب المدرسية الجديدة 2023",
+   "f": "matyat-wihsaeyat-bkhsws-alktb-almdrsya-aljdyda-2023.pdf",
+   "kb": 1891,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "مقرر وزاري 044.18 - تكييف الكتب المدرسية - السلك الابتدائي",
+   "f": "mqrr-wzary-044.18-tkyyf-alktb-almdrsya-alslk-alabtdaey.pdf",
+   "kb": 69,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "مقرر وزاري 3.01.10 - مراجعة دفاتر التحملات المتعلقة بالكتب المدرسية وتنظيم لجن التقييم والمصادقة الخاصة بها وبشأن اختياراتها وتعدديتها",
+   "f": "mqrr-wzary-3.01.10-mrajaa-dfatr-althmlat-almtalqa-balkt.pdf",
+   "kb": 971,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "مقرر وزاري014.19 - تكييف الكتب الموازية",
+   "f": "mqrr-wzary014.19-tkyyf-alktb-almwazya.pdf",
+   "kb": 649,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "منهاج التربية الإسلامية - سلك التعليم الابتدائي",
+   "f": "mnhaj-altrbya-alislamya-slk-altalym-alabtdaey.pdf",
+   "kb": 1502,
+   "h": "local"
+  },
+  {
+   "s": "manahij",
+   "t": "منهاج التربية الإسلامية - سلك التعليم الثانوي الإعدادي والتأهيلي",
+   "f": "mnhaj-altrbya-alislamya-slk-altalym-althanwy-aliadady-w.pdf",
+   "kb": 1464,
+   "h": "local"
+  },
+  {
+   "s": "tawjih",
+   "t": "Développement des compétences de vie- Guide pédagogique des activités",
+   "f": "developpement-des-competences-de-vie-guide-pedagogique.pdf",
+   "kb": 13132,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "الإطار المرجعي للمواكبة التخصصية للمشروع الشخصي للمتعلم — التعليم الثانوي الإعدادي والتأهيلي",
+   "f": "alitar-almrjay-llmwakba-altkhssya-llmchrwa-alchkhsy-llm.pdf",
+   "kb": 10425,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "دمج مكون التوجيه المدرسي والمهني في مشروع المؤسسة — وثيقة تأطيرية - فبراير 2022",
+   "f": "dmj-mkwn-altwjyh-almdrsy-walmhny-fy-mchrwa-almossa-wthy.pdf",
+   "kb": 7310,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مجزوءة التكوين الأساس لأطر الإدارة التربوية في مجال التوجيه المدرسي والمهني والجامعي مسلك الإدارة التربوية دعم المشاريع الشخصية",
+   "f": "mjzwaa-altkwyn-alasas-latr-alidara-altrbwya-fy-mjal-alt.pdf",
+   "kb": 11476,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مجزوءة التكوين الأساس لأطر التدريس في مجال التوجيه المدرسي والمهني مسلك تأهيل أساتذة التعليم الابتدائي",
+   "f": "mjzwaa-altkwyn-alasas-latr-altdrys-fy-mjal-altwjyh-almd.pdf",
+   "kb": 5028,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مجزوءة التكوين الأساس لأطر التدريس في مجال التوجيه المدرسي والمهني والجامعي - مسلك تأهيل أساتذة التعليم الثانوي",
+   "f": "mjzwaa-altkwyn-alasas-latr-altdrys-fy-mjal-altwjyh-almd-9679.pdf",
+   "kb": 8031,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مجزوءة التكوين الأساس لأطر هيئة الدعم في مجال التوجيه المدرسي والمهني والجامعي مسلك أطر الدعم التربوي والإداري والاجتماعي",
+   "f": "mjzwaa-altkwyn-alasas-latr-hyea-aldam-fy-mjal-altwjyh-a.pdf",
+   "kb": 9068,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 19-0734 تفعيل العمل بالنصوص التنظيمية بشأن التوجيه المدرسي والمهني والجامعي",
+   "f": "mdhkra-rqm-19-0734-tfayl-alaml-balnsws-altndymya-bchan.pdf",
+   "kb": 607,
+   "h": "local"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 19-105 الارتقاء بالممارسة التربوية في مجال التوجيه المدرسي والمهني والجامعي بالثانويات الإعدادية والثانويات التأهيلية",
+   "f": "mdhkra-rqm-19-105-alartqaa-balmmarsa-altrbwya-fy-mjal-a.pdf",
+   "kb": 172,
+   "h": "local"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 19-106 إرساء العمل بالمشروع الشخصي للمتعلم بالثانويات الإعدادية والثانويات التأهيلية",
+   "f": "mdhkra-rqm-19-106-irsaa-alaml-balmchrwa-alchkhsy-llmtal.pdf",
+   "kb": 223,
+   "h": "local"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 19-114 الأستاذ الرئيس بالثانويات الإعدادية والثانويات التأهيلية",
+   "f": "mdhkra-rqm-19-114-alastadh-alreys-balthanwyat-aliadadya.pdf",
+   "kb": 233,
+   "h": "local"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 21-013 المصادقة على مسطرة التوجيه المدرسي والمهني برسم سنة 2021",
+   "f": "mdhkra-rqm-21-013-almsadqa-ala-mstra-altwjyh-almdrsy-wa.pdf",
+   "kb": 11459,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 22-007 المصادقة على الإطار المرجعي للمواكبة التخصصية للمشروع الشخصي للمتعلم بالتعليم الثانوي الإعدادي والتأهيلي",
+   "f": "mdhkra-rqm-22-007-almsadqa-ala-alitar-almrjay-llmwakba.pdf",
+   "kb": 12452,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 22-015 تأطير دمج مكون التوجيه المدرسي والمهني ضمن مشروع المؤسسة",
+   "f": "mdhkra-rqm-22-015-tatyr-dmj-mkwn-altwjyh-almdrsy-walmhn.pdf",
+   "kb": 9563,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 22-057 معايير تحيين خريطة القطاعات المدرسية للتوجيه",
+   "f": "mdhkra-rqm-22-057-maayyr-thyyn-khryta-alqtaaat-almdrsya.pdf",
+   "kb": 1136,
+   "h": "local"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 23-004 مسطرة التوجيه المدرسي والمهني برسم سنة 2023",
+   "f": "mdhkra-rqm-23-004-mstra-altwjyh-almdrsy-walmhny-brsm-sn.pdf",
+   "kb": 1200,
+   "h": "local"
+  },
+  {
+   "s": "tawjih",
+   "t": "مذكرة رقم 24-005 مسطرة التوجيه المدرسي والمهني برسم سنة 2024",
+   "f": "mdhkra-rqm-24-005-mstra-altwjyh-almdrsy-walmhny-brsm-sn.pdf",
+   "kb": 1682,
+   "h": "local"
+  },
+  {
+   "s": "tawjih",
+   "t": "مصوغات التكوين المستمر في مجال التوجيه المدرسي والمهني - المصوغة الوطنية الأولى",
+   "f": "mswghat-altkwyn-almstmr-fy-mjal-altwjyh-almdrsy-walmhny.pdf",
+   "kb": 12091,
+   "h": "archive"
+  },
+  {
+   "s": "tawjih",
+   "t": "مصوغات التكوين المستمر في مجال التوجيه المدرسي والمهني المصوغة الوطنية الثانية",
+   "f": "mswghat-altkwyn-almstmr-fy-mjal-altwjyh-almdrsy-walmhny-9827.pdf",
+   "kb": 9212,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "100",
+   "f": "100.pdf",
+   "kb": 2551,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "101",
+   "f": "101.pdf",
+   "kb": 2640,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "102",
+   "f": "102.pdf",
+   "kb": 3257,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "103",
+   "f": "103.pdf",
+   "kb": 4115,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "104",
+   "f": "104.pdf",
+   "kb": 8229,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "105",
+   "f": "105.pdf",
+   "kb": 8663,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "106",
+   "f": "106.pdf",
+   "kb": 6855,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "107",
+   "f": "107.pdf",
+   "kb": 5808,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "108",
+   "f": "108.pdf",
+   "kb": 5250,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "109",
+   "f": "109.pdf",
+   "kb": 6334,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "110",
+   "f": "110.pdf",
+   "kb": 6551,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "111",
+   "f": "111.pdf",
+   "kb": 6003,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "112",
+   "f": "112.pdf",
+   "kb": 3945,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "113",
+   "f": "113.pdf",
+   "kb": 10674,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "114",
+   "f": "114.pdf",
+   "kb": 7319,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "115",
+   "f": "115.pdf",
+   "kb": 5723,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "116",
+   "f": "116.pdf",
+   "kb": 4859,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "117",
+   "f": "117.pdf",
+   "kb": 5194,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "118",
+   "f": "118.pdf",
+   "kb": 4477,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "119",
+   "f": "119.pdf",
+   "kb": 9035,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "120",
+   "f": "120.pdf",
+   "kb": 3512,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "121",
+   "f": "121.pdf",
+   "kb": 5694,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "122",
+   "f": "122.pdf",
+   "kb": 6202,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "123",
+   "f": "123.pdf",
+   "kb": 7636,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "124",
+   "f": "124.pdf",
+   "kb": 6096,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "125",
+   "f": "125.pdf",
+   "kb": 6452,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "126",
+   "f": "126.pdf",
+   "kb": 8197,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "127",
+   "f": "127.pdf",
+   "kb": 8791,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "128",
+   "f": "128.pdf",
+   "kb": 7652,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "129",
+   "f": "129.pdf",
+   "kb": 7524,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "130",
+   "f": "130.pdf",
+   "kb": 8396,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "131",
+   "f": "131.pdf",
+   "kb": 9027,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "132",
+   "f": "132.pdf",
+   "kb": 7475,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "133",
+   "f": "133.pdf",
+   "kb": 7931,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "134",
+   "f": "134.pdf",
+   "kb": 6919,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "135",
+   "f": "135.pdf",
+   "kb": 6920,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "136",
+   "f": "136.pdf",
+   "kb": 4535,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "137",
+   "f": "137.pdf",
+   "kb": 5869,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "138",
+   "f": "138.pdf",
+   "kb": 6593,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "139",
+   "f": "139.pdf",
+   "kb": 4541,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "140",
+   "f": "140.pdf",
+   "kb": 5937,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "141",
+   "f": "141.pdf",
+   "kb": 3816,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "142",
+   "f": "142.pdf",
+   "kb": 3188,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "143",
+   "f": "143.pdf",
+   "kb": 3156,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "144",
+   "f": "144.pdf",
+   "kb": 11010,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "145",
+   "f": "145.pdf",
+   "kb": 3424,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "146",
+   "f": "146.pdf",
+   "kb": 3642,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "147",
+   "f": "147.pdf",
+   "kb": 3202,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "148",
+   "f": "148.pdf",
+   "kb": 9002,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "149",
+   "f": "149.pdf",
+   "kb": 2363,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "150",
+   "f": "150.pdf",
+   "kb": 2638,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "151",
+   "f": "151.pdf",
+   "kb": 2544,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "152",
+   "f": "152.pdf",
+   "kb": 2585,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "153",
+   "f": "153.pdf",
+   "kb": 2582,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "154",
+   "f": "154.pdf",
+   "kb": 2673,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "155",
+   "f": "155.pdf",
+   "kb": 3397,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "156",
+   "f": "156.pdf",
+   "kb": 3280,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "157",
+   "f": "157.pdf",
+   "kb": 2376,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "158",
+   "f": "158.pdf",
+   "kb": 2322,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "159",
+   "f": "159.pdf",
+   "kb": 2553,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "85",
+   "f": "85.pdf",
+   "kb": 3293,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "86",
+   "f": "86.pdf",
+   "kb": 4726,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "87",
+   "f": "87.pdf",
+   "kb": 5794,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "88",
+   "f": "88.pdf",
+   "kb": 3772,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "89",
+   "f": "89.pdf",
+   "kb": 3095,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "90",
+   "f": "90.pdf",
+   "kb": 5395,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "91",
+   "f": "91.pdf",
+   "kb": 4188,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "92",
+   "f": "92.pdf",
+   "kb": 3081,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "93",
+   "f": "93.pdf",
+   "kb": 3023,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "94",
+   "f": "94.pdf",
+   "kb": 1926,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "95",
+   "f": "95.pdf",
+   "kb": 2979,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "96",
+   "f": "96.pdf",
+   "kb": 2293,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "97",
+   "f": "97.pdf",
+   "kb": 2334,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "98",
+   "f": "98.pdf",
+   "kb": 2152,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "99",
+   "f": "99.pdf",
+   "kb": 2222,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacPEPREUVESYNTHESE-CONSTRUCTIONAERONAUTIQUE2022",
+   "f": "bacpepreuvesynthese-constructionaeronautique2022.pdf",
+   "kb": 1158,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacPro-EPRSYN-SYS-ELECTRO-NUMER2022",
+   "f": "bacpro-eprsyn-sys-electro-numer2022.pdf",
+   "kb": 421,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacPro-EPSYN-SERVI-RESTAU2022",
+   "f": "bacpro-epsyn-servi-restau2022.pdf",
+   "kb": 982,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacPro-EPSYNTMAINTVEHIAUTO2022",
+   "f": "bacpro-epsyntmaintvehiauto2022.pdf",
+   "kb": 373,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacProEP-SYNT-FABRICATION-MECANIQUE2022",
+   "f": "bacproep-synt-fabrication-mecanique2022.pdf",
+   "kb": 364,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacProEP-SYNT-GROS-EUVRES-BATIMENT2022",
+   "f": "bacproep-synt-gros-euvres-batiment2022.pdf",
+   "kb": 996,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacProEP-SYNTHESE-FROID-CONDIT-AIR2022",
+   "f": "bacproep-synthese-froid-condit-air2022.pdf",
+   "kb": 343,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacProEPREUVESYNTHESE-CONSTRUCTIONMETALLIQUE2022",
+   "f": "bacproepreuvesynthese-constructionmetallique2022.pdf",
+   "kb": 411,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "BacProEp-SYNTELECTROTEQ",
+   "f": "bacproep-syntelectroteq.pdf",
+   "kb": 407,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE DE SYNTHESE",
+   "f": "cdr-bacpro-epreuve-de-synthese.pdf",
+   "kb": 914,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE DE SYNTHESE - ARTS CULINAIRES 2022",
+   "f": "cdr-bacpro-epreuve-de-synthese-arts-culinaires-2022.pdf",
+   "kb": 935,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE DE SYNTHESE - COMMERCE 2022",
+   "f": "cdr-bacpro-epreuve-de-synthese-commerce-2022.pdf",
+   "kb": 1247,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE DE SYNTHESE - COMPTABILITE 2022",
+   "f": "cdr-bacpro-epreuve-de-synthese-comptabilite-2022.pdf",
+   "kb": 1115,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE DE SYNTHESE - DESSIN DE BATIMENT 2022",
+   "f": "cdr-bacpro-epreuve-de-synthese-dessin-de-batiment-2022.pdf",
+   "kb": 1535,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE DE SYNTHESE - LOGISTIQUE 2022",
+   "f": "cdr-bacpro-epreuve-de-synthese-logistique-2022.pdf",
+   "kb": 879,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE DE SYNTHESE - STYLISME MODELISME 2022",
+   "f": "cdr-bacpro-epreuve-de-synthese-stylisme-modelisme-2022.pdf",
+   "kb": 505,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE DE SYNTHESE2022",
+   "f": "cdr-bacpro-epreuve-de-synthese2022.pdf",
+   "kb": 642,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR BacPro EPREUVE-SYNTHESE2022",
+   "f": "cdr-bacpro-epreuve-synthese2022.pdf",
+   "kb": 407,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM BAC REG 1ANNEE ARABE Filères Scientiofiques et Techniques",
+   "f": "cdr-exam-bac-reg-1annee-arabe-fileres-scientiofiques-et.pdf",
+   "kb": 329,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM BAC REG 1ANNEE FRANçAIS TT Options 2022",
+   "f": "cdr-exam-bac-reg-1annee-francais-tt-options-2022.pdf",
+   "kb": 426,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM BAC REG 1ANNEE HG SCE EXP-SCE MATH- SEG 2022 SC Chariia",
+   "f": "cdr-exam-bac-reg-1annee-hg-sce-exp-sce-math-seg-2022-sc.pdf",
+   "kb": 325,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM BAC REG 1ANNEE SC Chariia 2022Faraid-Taoukit",
+   "f": "cdr-exam-bac-reg-1annee-sc-chariia-2022faraid-taoukit.pdf",
+   "kb": 269,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ALLMEND 2022",
+   "f": "cdr-exam-nat-bac-allmend-2022.pdf",
+   "kb": 661,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ALLMEND 2022",
+   "f": "cdr-exam-nat-bac-allmend-2022-8dd8.pdf",
+   "kb": 661,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ANGLAIS 2022",
+   "f": "cdr-exam-nat-bac-anglais-2022.pdf",
+   "kb": 682,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ANGLAIS 2022",
+   "f": "cdr-exam-nat-bac-anglais-2022-ede7.pdf",
+   "kb": 682,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ARABE 2022",
+   "f": "cdr-exam-nat-bac-arabe-2022.pdf",
+   "kb": 408,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ARABE 2022",
+   "f": "cdr-exam-nat-bac-arabe-2022-41a3.pdf",
+   "kb": 408,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ARABE ORIGINEL 2022",
+   "f": "cdr-exam-nat-bac-arabe-originel-2022.pdf",
+   "kb": 399,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ARTS APPLIQUES 2022",
+   "f": "cdr-exam-nat-bac-arts-appliques-2022.pdf",
+   "kb": 459,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC Compta et MF-SGC 2022",
+   "f": "cdr-exam-nat-bac-compta-et-mf-sgc-2022.pdf",
+   "kb": 1758,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC Compta-SE 2022",
+   "f": "cdr-exam-nat-bac-compta-se-2022.pdf",
+   "kb": 1171,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC EOAE-SE 2022",
+   "f": "cdr-exam-nat-bac-eoae-se-2022.pdf",
+   "kb": 1007,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC EOAE-SGC 2022",
+   "f": "cdr-exam-nat-bac-eoae-sgc-2022.pdf",
+   "kb": 2124,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ESPAGNOL 2022",
+   "f": "cdr-exam-nat-bac-espagnol-2022.pdf",
+   "kb": 844,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ESPAGNOL 2022",
+   "f": "cdr-exam-nat-bac-espagnol-2022-10b4.pdf",
+   "kb": 844,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC HISTOIRE GEOGRAPHIE 2022",
+   "f": "cdr-exam-nat-bac-histoire-geographie-2022.pdf",
+   "kb": 304,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC HISTOIRE GEOGRAPHIE 2022",
+   "f": "cdr-exam-nat-bac-histoire-geographie-2022-0145.pdf",
+   "kb": 304,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ITALIEN 2022",
+   "f": "cdr-exam-nat-bac-italien-2022.pdf",
+   "kb": 888,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC ITALIEN 2022",
+   "f": "cdr-exam-nat-bac-italien-2022-138b.pdf",
+   "kb": 888,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH PC SVT Op FR2022",
+   "f": "cdr-exam-nat-bac-math-pc-svt-op-fr2022.pdf",
+   "kb": 361,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH PC SVT Op FR2022",
+   "f": "cdr-exam-nat-bac-math-pc-svt-op-fr2022-23b4.pdf",
+   "kb": 361,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH PC&SVT Op ANG 2022",
+   "f": "cdr-exam-nat-bac-math-pc-svt-op-ang-2022.pdf",
+   "kb": 316,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH PC&SVT Op ANG 2022",
+   "f": "cdr-exam-nat-bac-math-pc-svt-op-ang-2022-cce2.pdf",
+   "kb": 316,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH SM A&B Op ANG 2022",
+   "f": "cdr-exam-nat-bac-math-sm-a-b-op-ang-2022.pdf",
+   "kb": 392,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH SM A&B Op ANG 2022",
+   "f": "cdr-exam-nat-bac-math-sm-a-b-op-ang-2022-f17b.pdf",
+   "kb": 392,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH SM A&B Op FR 2022",
+   "f": "cdr-exam-nat-bac-math-sm-a-b-op-fr-2022.pdf",
+   "kb": 415,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH SM A&B Op FR 2022",
+   "f": "cdr-exam-nat-bac-math-sm-a-b-op-fr-2022-47cc.pdf",
+   "kb": 415,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH-SC ECO&SGC 2022",
+   "f": "cdr-exam-nat-bac-math-sc-eco-sgc-2022.pdf",
+   "kb": 233,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH-SC ECO&SGC 2022",
+   "f": "cdr-exam-nat-bac-math-sc-eco-sgc-2022-de88.pdf",
+   "kb": 233,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH-SC EXP 2022",
+   "f": "cdr-exam-nat-bac-math-sc-exp-2022.pdf",
+   "kb": 254,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH-SC EXP 2022",
+   "f": "cdr-exam-nat-bac-math-sc-exp-2022-b5a5.pdf",
+   "kb": 254,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH-SMA&B 2022",
+   "f": "cdr-exam-nat-bac-math-sma-b-2022.pdf",
+   "kb": 302,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC MATH-SMA&B 2022",
+   "f": "cdr-exam-nat-bac-math-sma-b-2022-31ba.pdf",
+   "kb": 302,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PC PC Op ANG 2022",
+   "f": "cdr-exam-nat-bac-pc-pc-op-ang-2022.pdf",
+   "kb": 2094,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PC PC Op FR 2022",
+   "f": "cdr-exam-nat-bac-pc-pc-op-fr-2022.pdf",
+   "kb": 2182,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PC SM A&B Op FR 2022",
+   "f": "cdr-exam-nat-bac-pc-sm-a-b-op-fr-2022.pdf",
+   "kb": 2232,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PC SMA&B Op ANG 2022",
+   "f": "cdr-exam-nat-bac-pc-sma-b-op-ang-2022.pdf",
+   "kb": 2134,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PC-AGRO 2022",
+   "f": "cdr-exam-nat-bac-pc-agro-2022.pdf",
+   "kb": 1326,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PC-PC 2022",
+   "f": "cdr-exam-nat-bac-pc-pc-2022.pdf",
+   "kb": 1711,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PC-SM A&B 2022",
+   "f": "cdr-exam-nat-bac-pc-sm-a-b-2022.pdf",
+   "kb": 1788,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PC-SM A&B 2022",
+   "f": "cdr-exam-nat-bac-pc-sm-a-b-2022-f983.pdf",
+   "kb": 1788,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PHILOSOPHIE 2022",
+   "f": "cdr-exam-nat-bac-philosophie-2022.pdf",
+   "kb": 407,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PHILOSOPHIE 2022",
+   "f": "cdr-exam-nat-bac-philosophie-2022-0072.pdf",
+   "kb": 407,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PHILOSOPHIE 2022",
+   "f": "cdr-exam-nat-bac-philosophie-2022-1f23.pdf",
+   "kb": 407,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PRO - PC-CEA 2022",
+   "f": "cdr-exam-nat-bac-pro-pc-cea-2022.pdf",
+   "kb": 1094,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PRO - PC-Génie Mécanique 2022",
+   "f": "cdr-exam-nat-bac-pro-pc-genie-mecanique-2022.pdf",
+   "kb": 1012,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PRO - PC-Génie Mécanique 2022",
+   "f": "cdr-exam-nat-bac-pro-pc-genie-mecanique-2022-2dfe.pdf",
+   "kb": 1012,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC PRO MATH ELEC MEC AGR BTP 2022",
+   "f": "cdr-exam-nat-bac-pro-math-elec-mec-agr-btp-2022.pdf",
+   "kb": 675,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SI-SMB 2022",
+   "f": "cdr-exam-nat-bac-si-smb-2022.pdf",
+   "kb": 251,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SI-STE 2022",
+   "f": "cdr-exam-nat-bac-si-ste-2022.pdf",
+   "kb": 180,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SI-STM 2022",
+   "f": "cdr-exam-nat-bac-si-stm-2022.pdf",
+   "kb": 452,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SIENCES ISLAMIQUES 2022",
+   "f": "cdr-exam-nat-bac-siences-islamiques-2022.pdf",
+   "kb": 550,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVA-AGRO 2022",
+   "f": "cdr-exam-nat-bac-sva-agro-2022.pdf",
+   "kb": 365,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT -PC Op ANG 2022",
+   "f": "cdr-exam-nat-bac-svt-pc-op-ang-2022.pdf",
+   "kb": 1392,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT SM A Op ANG 2022",
+   "f": "cdr-exam-nat-bac-svt-sm-a-op-ang-2022.pdf",
+   "kb": 707,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT SVT Op ANG 2022",
+   "f": "cdr-exam-nat-bac-svt-svt-op-ang-2022.pdf",
+   "kb": 1634,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT-AGRO 2022",
+   "f": "cdr-exam-nat-bac-svt-agro-2022.pdf",
+   "kb": 867,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT-PC 2022",
+   "f": "cdr-exam-nat-bac-svt-pc-2022.pdf",
+   "kb": 1138,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT-SM A 2022",
+   "f": "cdr-exam-nat-bac-svt-sm-a-2022.pdf",
+   "kb": 663,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT-SMA Op FR 2022",
+   "f": "cdr-exam-nat-bac-svt-sma-op-fr-2022.pdf",
+   "kb": 743,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT-SVT 2022",
+   "f": "cdr-exam-nat-bac-svt-svt-2022.pdf",
+   "kb": 1339,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BAC SVT-SVT Op FR 2022",
+   "f": "cdr-exam-nat-bac-svt-svt-op-fr-2022.pdf",
+   "kb": 1746,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - ANGLAIS 2022",
+   "f": "cdr-exam-nat-bacpro-anglais-2022.pdf",
+   "kb": 587,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - ANGLAIS 2022",
+   "f": "cdr-exam-nat-bacpro-anglais-2022-4be7.pdf",
+   "kb": 587,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - MATH- ELEC MEC AGR BTP 2022",
+   "f": "cdr-exam-nat-bacpro-math-elec-mec-agr-btp-2022.pdf",
+   "kb": 315,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - MATH- ELEC MEC AGR BTP 2022",
+   "f": "cdr-exam-nat-bacpro-math-elec-mec-agr-btp-2022-a328.pdf",
+   "kb": 315,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - PC Génie Elec 2022",
+   "f": "cdr-exam-nat-bacpro-pc-genie-elec-2022.pdf",
+   "kb": 897,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - PC Génie Elec 2022",
+   "f": "cdr-exam-nat-bacpro-pc-genie-elec-2022-c5f4.pdf",
+   "kb": 897,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - PC-BTP 2022",
+   "f": "cdr-exam-nat-bacpro-pc-btp-2022.pdf",
+   "kb": 905,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - PC-BTP 2022",
+   "f": "cdr-exam-nat-bacpro-pc-btp-2022-2263.pdf",
+   "kb": 905,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - PC-Genie Mécanique 2022",
+   "f": "cdr-exam-nat-bacpro-pc-genie-mecanique-2022.pdf",
+   "kb": 905,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - PC-Genie Mécanique 2022",
+   "f": "cdr-exam-nat-bacpro-pc-genie-mecanique-2022-2932.pdf",
+   "kb": 905,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO - SVT-AGRO 2022",
+   "f": "cdr-exam-nat-bacpro-svt-agro-2022.pdf",
+   "kb": 779,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO MATH-COM-COMP 2022",
+   "f": "cdr-exam-nat-bacpro-math-com-comp-2022.pdf",
+   "kb": 184,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPRO MATH-COM-COMP 2022",
+   "f": "cdr-exam-nat-bacpro-math-com-comp-2022-5828.pdf",
+   "kb": 184,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM NAT BACPROMATH-ELECMECAGRBTP22",
+   "f": "cdr-exam-nat-bacpromath-elecmecagrbtp22.pdf",
+   "kb": 315,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM RAG BAC LIBRE MATH LETTRES et ASSIL ARABE 2022",
+   "f": "cdr-exam-rag-bac-libre-math-lettres-et-assil-arabe-2022.pdf",
+   "kb": 496,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC 1ANNEE HG- Araba Assil 202",
+   "f": "cdr-exam-reg-bac-1annee-hg-araba-assil-202.pdf",
+   "kb": 363,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC 1ANNEE MATH LETTRES et ARABE ASSIL 20222",
+   "f": "cdr-exam-reg-bac-1annee-math-lettres-et-arabe-assil-202.pdf",
+   "kb": 165,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC 1ANNEE MATH- ARTS APPLIQUES 2022",
+   "f": "cdr-exam-reg-bac-1annee-math-arts-appliques-2022.pdf",
+   "kb": 172,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC LIBRE INSTRUCTION ISLAMIQUE TT Options 2022",
+   "f": "cdr-exam-reg-bac-libre-instruction-islamique-tt-options.pdf",
+   "kb": 837,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC LIBRE MATH Arts Appliques 2022",
+   "f": "cdr-exam-reg-bac-libre-math-arts-appliques-2022.pdf",
+   "kb": 384,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC LIBRE ScLangues ENS. ASSIL ScChariia 2022",
+   "f": "cdr-exam-reg-bac-libre-sclangues-ens.-assil-scchariia-2.pdf",
+   "kb": 386,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC LIBRE TRADUCTION SCE MATH SCE EXP 2022",
+   "f": "cdr-exam-reg-bac-libre-traduction-sce-math-sce-exp-2022.pdf",
+   "kb": 300,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC PRO MATH-ARTS CULINAIRES & SERVICES RESTAURATION 2022",
+   "f": "cdr-exam-reg-bac-pro-math-arts-culinaires-services-rest.pdf",
+   "kb": 197,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC PRO MATH-LOGISTIQUE 2022",
+   "f": "cdr-exam-reg-bac-pro-math-logistique-2022.pdf",
+   "kb": 263,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG BAC PRO MATH-STYLISME MODELISME 2022",
+   "f": "cdr-exam-reg-bac-pro-math-stylisme-modelisme-2022.pdf",
+   "kb": 215,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE ARABE 2022",
+   "f": "cdr-exam-reg-college-arabe-2022.pdf",
+   "kb": 454,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE ARABE-ASSIL 2022",
+   "f": "cdr-exam-reg-college-arabe-assil-2022.pdf",
+   "kb": 256,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE FRANçAIS 2022",
+   "f": "cdr-exam-reg-college-francais-2022.pdf",
+   "kb": 574,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE HG 2022",
+   "f": "cdr-exam-reg-college-hg-2022.pdf",
+   "kb": 639,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE INSTRUCTION ISLAMIQUE 2022",
+   "f": "cdr-exam-reg-college-instruction-islamique-2022.pdf",
+   "kb": 358,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE MATH 2022",
+   "f": "cdr-exam-reg-college-math-2022.pdf",
+   "kb": 240,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE MATH Fr 2022",
+   "f": "cdr-exam-reg-college-math-fr-2022.pdf",
+   "kb": 342,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE MATIERES ISLAMIQUE ENS. ASSIL 2022",
+   "f": "cdr-exam-reg-college-matieres-islamique-ens.-assil-2022.pdf",
+   "kb": 426,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE PC Ar 2022",
+   "f": "cdr-exam-reg-college-pc-ar-2022.pdf",
+   "kb": 377,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE PC Fr 2022",
+   "f": "cdr-exam-reg-college-pc-fr-2022.pdf",
+   "kb": 470,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR EXAM REG COLLEGE SVT Fr 2022",
+   "f": "cdr-exam-reg-college-svt-fr-2022.pdf",
+   "kb": 860,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR Primaire Arabe 2022",
+   "f": "cdr-primaire-arabe-2022.pdf",
+   "kb": 580,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR Primaire Français 2022",
+   "f": "cdr-primaire-francais-2022.pdf",
+   "kb": 1087,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR Primaire Math 2022",
+   "f": "cdr-primaire-math-2022.pdf",
+   "kb": 831,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDR REXAM REG COLLEGE SVT Ar 2022",
+   "f": "cdr-rexam-reg-college-svt-ar-2022.pdf",
+   "kb": 558,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDREXAM-NAT-BACPRO-ANG2022",
+   "f": "cdrexam-nat-bacpro-ang2022.pdf",
+   "kb": 587,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "CDREXAM-NATBAC-PHILO202",
+   "f": "cdrexam-natbac-philo202.pdf",
+   "kb": 407,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "EXAM -BACPROMATH-ELECMECAGRBTP 2022",
+   "f": "exam-bacpromath-elecmecagrbtp-2022.pdf",
+   "kb": 315,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "EXAM-NATBACPRO-MATHELEC MEC AGRBTP22",
+   "f": "exam-natbacpro-mathelec-mec-agrbtp22.pdf",
+   "kb": 675,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "ExamNAT-BACPRO-MATH-ELECMEC-AGRBTP22",
+   "f": "examnat-bacpro-math-elecmec-agrbtp22.pdf",
+   "kb": 315,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "ExamNAT-BACPRO-MELEC-MEC-AGRBTP2022",
+   "f": "examnat-bacpro-melec-mec-agrbtp2022.pdf",
+   "kb": 315,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "ExamNAT-BACPRO-PCGenieElec2022",
+   "f": "examnat-bacpro-pcgenieelec2022.pdf",
+   "kb": 897,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "ExamNATBACPROMATH-ELEC",
+   "f": "examnatbacpromath-elec.pdf",
+   "kb": 315,
+   "h": "local"
+  },
+  {
+   "s": "taqwim",
+   "t": "القرارات الوزارية الصادرة في شأن تنظيم امتحانات نيل شهادة الدروس الابتدائية",
+   "f": "160.pdf",
+   "kb": 11646,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 017-24 الإطار المرجعي المكيف لاختبارات الامتحان الإقليمي الموحد لنيل شهادة الدروس الابتدائية — 2024 —مادة اللغة العربية",
+   "f": "mdhkra-rqm-017-24-alitar-almrjay-almkyf-lakhtbarat-alam.pdf",
+   "kb": 3227,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 018-24 الإطار المرجعي المكيف لاختبارات الامتحان الإقليمي الموحد لنيل شهادة الدروس الابتدائية — 2024 -مادة التربية الاسلامية",
+   "f": "mdhkra-rqm-018-24-alitar-almrjay-almkyf-lakhtbarat-alam.pdf",
+   "kb": 3424,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 019-24 الإطار المرجعي المكيف لاختبارات الامتحان الإقليمي الموحد لنيل شهادة الدروس الابتدائية 2024مادة الرياضيات باللغة الفرنسية",
+   "f": "mdhkra-rqm-019-24-alitar-almrjay-almkyf-lakhtbarat-alam.pdf",
+   "kb": 3313,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 020-24 الإطار المرجعي المكيف لاختبارات الامتحان الإقليمي الموحد لنيل شهادة الدروس الابتدائية — 2024 -مادة اللغة الفرنسية",
+   "f": "mdhkra-rqm-020-24-alitar-almrjay-almkyf-lakhtbarat-alam.pdf",
+   "kb": 3844,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 021-24 الإطار المرجعي المكيف لاختبارات الامتحان الإقليمي الموحد لنيل شهادة الدروس الابتدائية 2024 مادة الرياضيات باللغة العربية",
+   "f": "mdhkra-rqm-021-24-alitar-almrjay-almkyf-lakhtbarat-alam.pdf",
+   "kb": 3253,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 24-022 بشأن الإطار المرجعي المكيف لاختبارات الامتحان الجهوي الموحد لنيل شهادة السلك الإعدادي 2024 -مادة اللغة العربية",
+   "f": "mdhkra-rqm-24-022-bchan-alitar-almrjay-almkyf-lakhtbara.pdf",
+   "kb": 3966,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 24-023 بشأن الإطار المرجعي المكيف لاختبارات الامتحان الجهوي الموحد لنيل شهادة السلك الإعدادي 2024 المواد الإسلامية بالتعليم الأصيل",
+   "f": "mdhkra-rqm-24-023-bchan-alitar-almrjay-almkyf-lakhtbara.pdf",
+   "kb": 3953,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 24-025 بشأن الإطار المرجعي المكيف للامتحان الجهوي الموحد السلك الإعدادي 2024 مادة اللغة العربية -بالتعليم الأصيل",
+   "f": "mdhkra-rqm-24-025-bchan-alitar-almrjay-almkyf-llamthan.pdf",
+   "kb": 3928,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 24-026 بشأن الإطار المرجعي المكيف لاختبارات الامتحان الجهوي الموحد لنيل شهادة السلك الإعدادي 2024 مادة الرياضيات",
+   "f": "mdhkra-rqm-24-026-bchan-alitar-almrjay-almkyf-lakhtbara.pdf",
+   "kb": 3006,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 24-027 بشأن الإطار المرجعي المكيف لاختبارات الامتحان الجهوي الموحد لنيل شهادة السلك الإعدادي 2024 مادة الرياضيات باللغة الفرنسية",
+   "f": "mdhkra-rqm-24-027-bchan-alitar-almrjay-almkyf-lakhtbara.pdf",
+   "kb": 2348,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 24-028 بتاريخ بشأن الإطار المرجعي المكيف لاختبارات الامتحان الجهوي الموحد لنيل شهادة السلك الإعدادي 2024 مادة الاجتماعيات",
+   "f": "mdhkra-rqm-24-028-btarykh-bchan-alitar-almrjay-almkyf-l.pdf",
+   "kb": 2653,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 24-029 بشأن الإطار المرجعي المكيف للامتحان الجهويالسلك الإعدادي 2024 مادة الفيزياء والكيمياء باللغة الفرنسية",
+   "f": "mdhkra-rqm-24-029-bchan-alitar-almrjay-almkyf-llamthan.pdf",
+   "kb": 4848,
+   "h": "archive"
+  },
+  {
+   "s": "taqwim",
+   "t": "مذكرة رقم 24-030 بشأن الإطار المرجعي المكيف الامتحان الجهوي الموحد السلك الإعدادي مادة الفيزياء والكيمياء",
+   "f": "mdhkra-rqm-24-030-bchan-alitar-almrjay-almkyf-alamthan.pdf",
+   "kb": 3991,
+   "h": "archive"
+  },
+  {
+   "s": "mobadarat",
+   "t": "تقرير إنجاز المبادرة الملكية «مليون محفظة» — الموسم الدراسي 2020-2021",
+   "f": "161.pdf",
+   "kb": 10642,
+   "h": "archive"
+  },
+  {
+   "s": "mobadarat",
+   "t": "تقرير إنجاز المبادرة الملكية «مليون محفظة» — الموسم الدراسي 2023-2024",
+   "f": "162.pdf",
+   "kb": 2819,
+   "h": "archive"
+  }
+ ]
+}

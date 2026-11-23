@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة تربية - رفيقك للنجاح في علوم التربية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1F4529',
+                        secondary: '#2D6A4F',
+                        accent: '#50C878',
+                        gold: '#D4AF37',
+                    },
+                    fontFamily: {
+                        amiri: ['Amiri', 'serif'],
+                        tajawal: ['Tajawal', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        [x-cloak] { display: none !important; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1F4529 0%, #052300 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .screenshot-card {
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .screenshot-card:hover {
+            transform: scale(1.05) rotate(1deg);
+            z-index: 20;
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="font-tajawal bg-slate-50 text-slate-900 overflow-x-hidden" x-data="{ mobileMenu: false, showPrivacy: false, showTerms: false }">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="logo.svg" alt="تربية Logo" class="w-12 h-12 object-contain">
+                <span class="text-2xl font-black text-primary tracking-tighter">منصة تربية</span>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 font-bold text-slate-600">
+                <a href="#hero" class="hover:text-primary transition-colors">الرئيسية</a>
+                <a href="#philosophy" class="hover:text-primary transition-colors">فلسفتنا</a>
+                <a href="#gallery" class="hover:text-primary transition-colors">جولة في التطبيق</a>
+                <a href="#premium" class="hover:text-primary transition-colors">دعم المشروع</a>
+                <<a href="https://play.google.com/store/apps/details?id=com.ayoub.tarbiaa" target="_blank" class="bg-primary text-white px-6 py-2.5 rounded-full hover:bg-secondary transition-all shadow-lg shadow-primary/20">تحميل من المتجر</a>
+            </nav>
+
+            <button @click="mobileMenu = !mobileMenu" class="md:hidden text-2xl text-primary">
+                <i class="fas" :class="mobileMenu ? 'fa-times' : 'fa-bars'"></i>
+            </button>
+        </div>
+
+        <div x-show="mobileMenu" x-cloak class="md:hidden bg-white border-t border-slate-100 p-6 space-y-4 shadow-xl">
+            <a href="#hero" @click="mobileMenu = false" class="block font-bold text-slate-700">الرئيسية</a>
+            <a href="#philosophy" @click="mobileMenu = false" class="block font-bold text-slate-700">فلسفتنا</a>
+            <a href="#gallery" @click="mobileMenu = false" class="block font-bold text-slate-700">جولة في التطبيق</a>
+            <a href="https://play.google.com/store/apps/details?id=com.ayoub.tarbiaa" target="_blank" @click="mobileMenu = false" class="block bg-primary text-white text-center py-3 rounded-xl">تحميل الآن</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="pt-32 pb-20 md:pt-48 md:pb-32 gradient-bg relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-gold rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 text-center md:text-right">
+                <div class="inline-flex items-center gap-2 bg-white/10 text-accent px-4 py-2 rounded-full text-sm font-bold mb-6">
+                    <i class="fas fa-certificate text-gold"></i>
+                    <span>مشروع تعليمي مجاني ومستقل 📚</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-black text-white leading-tight mb-6">
+                    بوابتك الذكية لاحتراف <br>
+                    <span class="text-accent">علوم التربية والديداكتيك</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
+                    تعلم، تدرب، وانجح مع "تربية". المنصة الأكثر شمولاً بالمغرب العربي، متاحة للجميع بدون قيود مادية وبتقنيات ذكاء اصطناعي متطورة.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+    <a href="https://play.google.com/store/apps/details?id=com.ayoub.tarbiaa" target="_blank" class="flex items-center gap-3 bg-white text-primary px-8 py-4 rounded-2xl font-black text-lg hover:bg-slate-100 transition-all shadow-xl">
+        <i class="fab fa-google-play"></i>
+        <span>تحميل من Google Play</span>
+    </a>
+                    <a href="#gallery" class="flex items-center gap-3 border-2 border-white/30 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all">
+                        <span>جولة في التطبيق</span>
+                        <i class="fas fa-camera text-sm"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative w-72 h-[600px] md:w-80 md:h-[650px] bg-slate-800 rounded-[3rem] border-[8px] border-slate-900 shadow-2xl overflow-hidden animate-float">
+                    <img src="الصفحة الرئيسية.jpg" alt="واجهة التطبيق الرئيسية" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy -->
+    <section id="philosophy" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-5xl font-black mb-8 text-primary">التعليم حق، وليس سلعة.</h2>
+                <p class="text-slate-600 text-xl leading-relaxed mb-12">
+                    نحن نؤمن في منصة "تربية" أن التكوين التربوي يجب أن يكون متاحاً لكل مترشح ومترشحة بكرامة ومجانية تامة.
+                    <b>جميع الدروس والامتحانات والمصادر مفتوحة بالمجان</b>؛ حيث يمكنك التقدم تدريجياً في شجرة المهارات دون أي اشتراك إلزامي.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                        <i class="fas fa-heart text-accent text-3xl mb-4"></i>
+                        <h4 class="font-bold mb-2">مستقل وغير ربحي</h4>
+                        <p class="text-sm text-slate-500">مشروع شخصي غايته الوحيدة تجويد العرض التربوي الرقمي.</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                        <i class="fas fa-globe text-accent text-3xl mb-4"></i>
+                        <h4 class="font-bold mb-2">متاح للجميع</h4>
+                        <p class="text-sm text-slate-500">لا حدود جغرافية أو مادية تمنعك من الوصول لأجود المحتويات.</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                        <i class="fas fa-shield-heart text-accent text-3xl mb-4"></i>
+                        <h4 class="font-bold mb-2">مدعوم بالتطوع</h4>
+                        <p class="text-sm text-slate-500">نحن نقدر دعمكم الاختياري لضمان بقاء السيرفرات قيد العمل.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Gallery Section -->
+    <section id="gallery" class="py-24 bg-slate-900 overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-accent font-black uppercase tracking-widest text-sm">شاهد التطبيق من الداخل</span>
+                <h2 class="text-3xl md:text-5xl font-black text-white mt-4">تجربة تعلم عصرية في جيبك</h2>
+            </div>
+
+            <div class="flex gap-6 overflow-x-auto pb-12 pt-4 hide-scrollbar snap-x snap-mandatory">
+                <div class="snap-center flex-shrink-0 w-64 md:w-80">
+                    <div class="screenshot-card rounded-[2.5rem] overflow-hidden border-4 border-slate-800 shadow-2xl">
+                        <img src="الصفحة الرئيسية.jpg" alt="الصفحة الرئيسية" class="w-full h-auto">
+                    </div>
+                    <p class="text-center text-white mt-6 font-bold">الشاشة الرئيسية</p>
+                </div>
+                <div class="snap-center flex-shrink-0 w-64 md:w-80">
+                    <div class="screenshot-card rounded-[2.5rem] overflow-hidden border-4 border-slate-800 shadow-2xl">
+                        <img src="قسم شجرة المهارات.jpg" alt="شجرة المهارات" class="w-full h-auto">
+                    </div>
+                    <p class="text-center text-white mt-6 font-bold">شجرة المهارات</p>
+                </div>
+                <div class="snap-center flex-shrink-0 w-64 md:w-80">
+                    <div class="screenshot-card rounded-[2.5rem] overflow-hidden border-4 border-slate-800 shadow-2xl">
+                        <img src="قسم المكتبة الرقمية.jpg" alt="المكتبة الرقمية" class="w-full h-auto">
+                    </div>
+                    <p class="text-center text-white mt-6 font-bold">المكتبة الرقمية</p>
+                </div>
+                <div class="snap-center flex-shrink-0 w-64 md:w-80">
+                    <div class="screenshot-card rounded-[2.5rem] overflow-hidden border-4 border-slate-800 shadow-2xl">
+                        <img src="قسم الباحث عن الملفات.jpg" alt="الباحث الذكي" class="w-full h-auto">
+                    </div>
+                    <p class="text-center text-white mt-6 font-bold">الباحث الذكي</p>
+                </div>
+                <div class="snap-center flex-shrink-0 w-64 md:w-80">
+                    <div class="screenshot-card rounded-[2.5rem] overflow-hidden border-4 border-slate-800 shadow-2xl">
+                        <img src="جميع المميزات.jpg" alt="المميزات" class="w-full h-auto">
+                    </div>
+                    <p class="text-center text-white mt-6 font-bold">كافة الأدوات</p>
+                </div>
+                <div class="snap-center flex-shrink-0 w-64 md:w-80">
+                    <div class="screenshot-card rounded-[2.5rem] overflow-hidden border-4 border-slate-800 shadow-2xl">
+                        <img src="قسم حسابي.jpg" alt="حسابي" class="w-full h-auto">
+                    </div>
+                    <p class="text-center text-white mt-6 font-bold">إدارة التقدم</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support / Premium Section -->
+    <section id="premium" class="py-24 bg-primary relative overflow-hidden">
+        <div class="absolute right-0 top-0 w-1/3 h-full bg-secondary/30 -skew-x-12 translate-x-1/2"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2 text-white">
+                    <div class="inline-block bg-accent/20 text-accent px-4 py-1 rounded-full text-sm font-black mb-6">خيار دعم الاستمرارية</div>
+                    <h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">ادعم مشروعك المفضل <br> <span class="text-accent underline decoration-accent/30 underline-offset-8">واختصر طريق التعلم</span></h2>
+                    <p class="text-slate-200 text-xl mb-10 leading-relaxed">
+                        نحن ملتزمون بمجانية التطبيق للجميع. ولكن إذا كنت ترغب في تقدير مجهود المطور والمساهمة في تكاليف الذكاء الاصطناعي مع فتح كافة الدروس دفعة واحدة وبدون انتظار، يمكنك تفعيل النسخة الكاملة بمبلغ رمزي.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-accent"></i>
+                            <span>فتح فوري لكافة دروس شجرة المهارات للأبد.</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-accent"></i>
+                            <span>دعم تطوير أدوات ذكاء اصطناعي جديدة.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 w-full">
+                    <div class="bg-white p-8 md:p-12 rounded-[3.5rem] shadow-2xl relative text-center">
+                        <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-gold text-white px-8 py-2 rounded-full font-black text-sm uppercase">تفعيل مدى الحياة</div>
+                        <div class="mb-10">
+                            <span class="text-6xl font-black text-primary">49</span>
+                            <span class="text-2xl font-bold text-slate-400">درهم</span>
+                            <p class="text-slate-500 mt-2 font-medium italic">"مساهمة بسيطة، أثر كبير"</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+                            <div class="p-4 bg-slate-50 rounded-2xl flex flex-col items-center">
+                                <i class="fab fa-paypal text-blue-600 text-2xl mb-1"></i>
+                                <span class="text-[9px] font-bold text-slate-400 uppercase">PayPal Support</span>
+                            </div>
+                            <div class="p-4 bg-slate-50 rounded-2xl flex flex-col items-center border-2 border-primary/10">
+                                <i class="fas fa-university text-primary text-2xl mb-1"></i>
+                                <span class="text-[9px] font-bold text-slate-400 uppercase">Bank Transfer (RIB)</span>
+                            </div>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.ayoub.tarbiaa" target="_blank" class="block w-full bg-primary text-white text-center py-5 rounded-2xl font-black text-lg mt-8 hover:bg-secondary transition-all shadow-xl shadow-primary/30">
+    حمّل التطبيق واطلب التفعيل
+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Connect -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col items-center text-center">
+                <h3 class="text-2xl md:text-3xl font-black text-primary mb-12 italic">تابع منصة تربية على شبكات التواصل</h3>
+                <div class="flex flex-wrap justify-center gap-6 md:gap-10">
+                    <a href="https://www.facebook.com/share/1Rd9Z15Gox/" target="_blank" class="flex flex-col items-center gap-3 group">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-2xl group-hover:bg-blue-600 group-hover:text-white transition-all shadow-lg">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <span class="font-bold text-slate-600">فيسبوك</span>
+                    </a>
+                    <a href="https://www.instagram.com/tarbiaa1?igsh=bTA4OXBzcmNsMnRs" target="_blank" class="flex flex-col items-center gap-3 group">
+                        <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 text-2xl group-hover:bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 group-hover:text-white transition-all shadow-lg">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span class="font-bold text-slate-600">إنستغرام</span>
+                    </a>
+                    <a href="https://whatsapp.com/channel/0029VbAF81z1CYoTrj5dOI35" target="_blank" class="flex flex-col items-center gap-3 group">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-2xl group-hover:bg-green-600 group-hover:text-white transition-all shadow-lg">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <span class="font-bold text-slate-600">واتساب</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white pt-20 pb-10 border-t border-white/5">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12 mb-16 text-right text-sm">
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <img src="logo.svg" alt="Logo" class="w-10 h-10 brightness-0 invert">
+                        <span class="text-2xl font-black tracking-tighter italic">تربية</span>
+                    </div>
+                    <p class="text-slate-400 leading-relaxed">
+                        مشروع تربوي رقمي متكامل، صُمم بشغف لخدمة المترشحين للمباريات المهنية بالمغرب، معتمداً على أحدث تقنيات التعليم الرقمي.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-accent">الدعم القانوني والتواصل</h4>
+                    <ul class="space-y-3 text-slate-400">
+                        <li><a href="mailto:support@tarbiaa.ma" class="hover:text-white">support@tarbiaa.ma</a></li>
+                        <li><a href="mailto:tarbiaa.dev@gmail.com" class="hover:text-white">tarbiaa.dev@gmail.com</a></li>
+                        <li><a href="privacy.html" class="hover:text-accent underline decoration-accent/30 text-right block">سياسة الخصوصية</a></li>
+                        <li><a href="delete-account.html" class="hover:text-accent underline decoration-accent/30 text-right block">حذف الحساب</a></li>
+                        <li><button @click="showTerms = true" class="hover:text-accent underline decoration-accent/30 text-right">شروط الخدمة</button></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-6 text-accent">عن المطور</h4>
+                    <a href="https://www.facebook.com/ayoub.elmakhloufi.77" target="_blank" class="inline-flex items-center gap-3 p-3 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all">
+                        <i class="fab fa-facebook text-blue-400 text-xl"></i>
+                        <span class="font-bold">أيوب المخلوفي</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-white/5 pt-10 text-center text-slate-500 font-medium italic">
+                <p>صُنع بكل <span class="text-red-500 mx-1">❤️</span> لخدمة المنظومة التربوية ولأجل نجاحكم.</p>
+                <p class="mt-2 text-xs opacity-50">&copy; 2026 منصة تربية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Legal Modals -->
+    <!-- Privacy Policy Modal -->
+    <div x-show="showPrivacy" x-cloak class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/90 backdrop-blur-sm" @click.away="showPrivacy = false">
+        <div class="bg-white rounded-[2rem] w-full max-w-2xl max-h-[80vh] overflow-y-auto p-8 relative">
+            <button @click="showPrivacy = false" class="absolute top-6 left-6 text-slate-400 hover:text-primary"><i class="fas fa-times text-2xl"></i></button>
+            <h3 class="text-2xl font-black text-primary mb-6">سياسة الخصوصية</h3>
+            <div class="text-slate-600 leading-relaxed space-y-4 text-right">
+                <p>نحن في منصة "تربية" نحترم خصوصيتك تماماً. لا يقوم التطبيق بجمع أي بيانات حساسة؛ نحن نستخدم فقط بريدك الإلكتروني لغرض تسجيل الدخول ومزامنة تقدمك الدراسي عبر خدمات Google Firebase الآمنة.</p>
+                <p>بياناتك محمية بقواعد صارمة ولا يتم مشاركتها مع أي طرف ثالث لأغراض تجارية. ملفات الكوكيز في الموقع تستخدم فقط لتحسين تجربة التصفح.</p>
+                <p>باستخدامك للتطبيق، أنت توافق على معالجة البيانات الضرورية لتشغيل ميزات المزامنة والتقدم فقط.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms of Service Modal -->
+    <div x-show="showTerms" x-cloak class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/90 backdrop-blur-sm" @click.away="showTerms = false">
+        <div class="bg-white rounded-[2rem] w-full max-w-2xl max-h-[80vh] overflow-y-auto p-8 relative">
+            <button @click="showTerms = false" class="absolute top-6 left-6 text-slate-400 hover:text-primary"><i class="fas fa-times text-2xl"></i></button>
+            <h3 class="text-2xl font-black text-primary mb-6">شروط الخدمة</h3>
+            <div class="text-slate-600 leading-relaxed space-y-4 text-right">
+                <p>منصة تربية هي مشروع تعليمي غير ربحي. المحتوى المقدم هو لغرض التكوين والتعلم الذاتي ولا يحل محل التكوينات الرسمية للدولة.</p>
+                <p>خيار دعم المشروع (49 درهماً) هو مساهمة طوعية اختيارية تهدف لمساعدة المطور على تغطية تكاليف التشغيل والذكاء الاصطناعي، وهي تدفع لمرة واحدة مدى الحياة.</p>
+                <p>يُمنع استخدام المحتوى لأغراض تجارية خارجية دون إذن مسبق من المطور.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

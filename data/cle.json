@@ -1,0 +1,1754 @@
+[
+  {
+    "t": "Langue Française",
+    "s": [
+      {
+        "n": "S1",
+        "m": [
+          {
+            "name": "Grammaire 1",
+            "url": ""
+          },
+          {
+            "name": "Phonétique/Phonologie",
+            "url": ""
+          },
+          {
+            "name": "Genres littéraires et Typologie textuelle",
+            "url": ""
+          },
+          {
+            "name": "Initiation à la linguistique",
+            "url": ""
+          },
+          {
+            "name": "Les Grands Mythes",
+            "url": ""
+          },
+          {
+            "name": "Histoire des idées et des arts 1",
+            "url": ""
+          },
+          {
+            "name": "Méthodologie du travail universitaire, Digital skills, - Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S2",
+        "m": [
+          {
+            "name": "Grammaire 2",
+            "url": ""
+          },
+          {
+            "name": "Lexicographie/Lexicologie",
+            "url": ""
+          },
+          {
+            "name": "Initiation au genre dramatique",
+            "url": ""
+          },
+          {
+            "name": "Poésie et versification",
+            "url": ""
+          },
+          {
+            "name": "Catégorie du récit",
+            "url": ""
+          },
+          {
+            "name": "Histoire des idées et des arts 2",
+            "url": ""
+          },
+          {
+            "name": "Digital skills en éducation, Langue 2",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S3",
+        "m": [
+          {
+            "name": "Morphosyntaxe 1",
+            "url": ""
+          },
+          {
+            "name": "Littérature africaine de langue française 1",
+            "url": ""
+          },
+          {
+            "name": "Lecture du texte littéraire 1: le théâtre classique",
+            "url": ""
+          },
+          {
+            "name": "Introduction à l'interculturel",
+            "url": ""
+          },
+          {
+            "name": "Stylistique",
+            "url": ""
+          },
+          {
+            "name": "Sciences d'éducation(psychopédagogie,sociologie de l'éducation)",
+            "url": ""
+          },
+          {
+            "name": "Développement personnel, Langue 3",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S4",
+        "m": [
+          {
+            "name": "Morphosyntaxe 2",
+            "url": ""
+          },
+          {
+            "name": "Littérature africaine de langue française 2",
+            "url": ""
+          },
+          {
+            "name": "Lecture du texte littéraire 2: Poésie du XIXe siècle",
+            "url": ""
+          },
+          {
+            "name": "Sémiotique",
+            "url": ""
+          },
+          {
+            "name": "Sociolinguistique",
+            "url": ""
+          },
+          {
+            "name": "Approches et méthodes didactiques",
+            "url": ""
+          },
+          {
+            "name": "Histoire, art et patrimoine du Maroc; Langue 4",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S5",
+        "m": [
+          {
+            "name": "Lecture du texte littéraire 3: le roman du XXe siècle",
+            "url": ""
+          },
+          {
+            "name": "Sémantique",
+            "url": ""
+          },
+          {
+            "name": "Psycholinguistique",
+            "url": ""
+          },
+          {
+            "name": "Didactique du français",
+            "url": ""
+          },
+          {
+            "name": "Déon tologie du métier",
+            "url": ""
+          },
+          {
+            "name": "Droit, civisme et ci toyenneté",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S6",
+        "m": [
+          {
+            "name": "Critique littéraire",
+            "url": ""
+          },
+          {
+            "name": "Analyse de discours et énonciation",
+            "url": ""
+          },
+          {
+            "name": "Initiation à la recherche scientifique",
+            "url": ""
+          },
+          {
+            "name": "Docimologie et évaluation",
+            "url": ""
+          },
+          {
+            "name": "Histoire des idées des sciences humaines et sociales",
+            "url": ""
+          },
+          {
+            "name": "Langue 6",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "t": "Langue Anglaise",
+    "s": [
+      {
+        "n": "S1",
+        "m": [
+          {
+            "name": "Reading comprehension and précis 1",
+            "url": ""
+          },
+          {
+            "name": "Paragraph writing",
+            "url": ""
+          },
+          {
+            "name": "Grammar 1",
+            "url": ""
+          },
+          {
+            "name": "Spoken english",
+            "url": ""
+          },
+          {
+            "name": "Guided reading",
+            "url": ""
+          },
+          {
+            "name": "British culture and society",
+            "url": ""
+          },
+          {
+            "name": "Study Skills, Digital Skills, et Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S2",
+        "m": [
+          {
+            "name": "Reading comprehension and précis 2",
+            "url": ""
+          },
+          {
+            "name": "Composition 1",
+            "url": ""
+          },
+          {
+            "name": "Grammar 2",
+            "url": ""
+          },
+          {
+            "name": "Oral Communi cation",
+            "url": ""
+          },
+          {
+            "name": "Readings in Culture",
+            "url": ""
+          },
+          {
+            "name": "Culture and Society in the US",
+            "url": ""
+          },
+          {
+            "name": "Digital Skills in Education and Langue 2",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S3",
+        "m": [
+          {
+            "name": "Critical Reading",
+            "url": ""
+          },
+          {
+            "name": "Composition 2",
+            "url": ""
+          },
+          {
+            "name": "Grammar 3",
+            "url": ""
+          },
+          {
+            "name": "Public Speaking and Debating 1",
+            "url": ""
+          },
+          {
+            "name": "Introduction to Language",
+            "url": ""
+          },
+          {
+            "name": "Educational Sciences",
+            "url": ""
+          },
+          {
+            "name": "Développement personnel - Langue3",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S4",
+        "m": [
+          {
+            "name": "Introduction to literary & cultural studies",
+            "url": ""
+          },
+          {
+            "name": "Introduction to linguistics",
+            "url": ""
+          },
+          {
+            "name": "Introduction to media studies",
+            "url": ""
+          },
+          {
+            "name": "Public speaking and debating 2",
+            "url": ""
+          },
+          {
+            "name": "Advanced a cademic writing",
+            "url": ""
+          },
+          {
+            "name": "Approaches and Methods of ELT",
+            "url": ""
+          },
+          {
+            "name": "Histoire, art et patrimoine du Maroc - Langue 4",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S5",
+        "m": [
+          {
+            "name": "Edu cational Research",
+            "url": ""
+          },
+          {
+            "name": "Individual Learner Differences",
+            "url": ""
+          },
+          {
+            "name": "Teaching language skills & components",
+            "url": ""
+          },
+          {
+            "name": "Didactics of English",
+            "url": ""
+          },
+          {
+            "name": "Déon tologie du métier et législation scolaire",
+            "url": ""
+          },
+          {
+            "name": "Droit, civisme et citoyenne té et Langue 5",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S6",
+        "m": [
+          {
+            "name": "Special edu cational needs and inclusive education",
+            "url": ""
+          },
+          {
+            "name": "Classroom management",
+            "url": ""
+          },
+          {
+            "name": "Research and Portfolio Writing",
+            "url": ""
+          },
+          {
+            "name": "Evaluation and Assessment",
+            "url": ""
+          },
+          {
+            "name": "History of Ideas",
+            "url": ""
+          },
+          {
+            "name": "Langue 6",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "t": "Langue Arabe",
+    "s": [
+      {
+        "n": "S1",
+        "m": [
+          {
+            "name": "نحو",
+            "url": ""
+          },
+          {
+            "name": "فقه اللغة",
+            "url": ""
+          },
+          {
+            "name": "مدخل الى اللسانيات",
+            "url": ""
+          },
+          {
+            "name": "مدخل إلى الأدب العربي",
+            "url": ""
+          },
+          {
+            "name": "البلاغة العربية",
+            "url": ""
+          },
+          {
+            "name": "العروض والقافية",
+            "url": ""
+          },
+          {
+            "name": "Méthodologie du travail universitaire, Digital skills, - Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative en établissement scolaire 1",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S2",
+        "m": [
+          {
+            "name": "نحو 2",
+            "url": ""
+          },
+          {
+            "name": "الاصواتية",
+            "url": ""
+          },
+          {
+            "name": "الاسلوبية والبلاغة الجديدة",
+            "url": ""
+          },
+          {
+            "name": "مدخل إلى الأدب الأندلسي والمغربي",
+            "url": ""
+          },
+          {
+            "name": "شعر قديم",
+            "url": ""
+          },
+          {
+            "name": "شعر حديث",
+            "url": ""
+          },
+          {
+            "name": "Digital skills en éducation et Langue 2",
+            "url": ""
+          },
+          {
+            "name": "Action éducative en établissement scolaire 2",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S3",
+        "m": [
+          {
+            "name": "نحو 3",
+            "url": ""
+          },
+          {
+            "name": "ظواهر صرفية",
+            "url": ""
+          },
+          {
+            "name": "المعجمية",
+            "url": ""
+          },
+          {
+            "name": "النقد العربي القديم",
+            "url": ""
+          },
+          {
+            "name": "النقد الحديث",
+            "url": ""
+          },
+          {
+            "name": "علوم التربية",
+            "url": ""
+          },
+          {
+            "name": "Développement personnel - Langue 3",
+            "url": ""
+          },
+          {
+            "name": "Action éducative en établissement scolaire 3",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S4",
+        "m": [
+          {
+            "name": "الصواتة",
+            "url": ""
+          },
+          {
+            "name": "تطبيقات على نصوص شعرية",
+            "url": ""
+          },
+          {
+            "name": "تطبيقات على نصوص نثرية",
+            "url": ""
+          },
+          {
+            "name": "السرد القديم",
+            "url": ""
+          },
+          {
+            "name": "السرد الحديث",
+            "url": ""
+          },
+          {
+            "name": "مقاربات وطرائق ديداكتيكية",
+            "url": ""
+          },
+          {
+            "name": "Histoire, art et patrimoine du Maroc & Langue 4",
+            "url": ""
+          },
+          {
+            "name": "Action éducative en établissement scolaire 4",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S5",
+        "m": [
+          {
+            "name": "مدخل إلى اللسانيات التطبيقية",
+            "url": ""
+          },
+          {
+            "name": "تلقي النص الأدبي",
+            "url": ""
+          },
+          {
+            "name": "السيميائيات",
+            "url": ""
+          },
+          {
+            "name": "ديداكتيك اللغة العربية",
+            "url": ""
+          },
+          {
+            "name": "التشريع المدرسي وأخلاقيات المهنة",
+            "url": ""
+          },
+          {
+            "name": "Méthodologie du travail universitaire, Digital skills, - Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative en établissement scolaire 5",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S6",
+        "m": [
+          {
+            "name": "اللسانيات النفسية والاجتماعية",
+            "url": ""
+          },
+          {
+            "name": "تحليل الخطاب والتداوليات",
+            "url": ""
+          },
+          {
+            "name": "قراءة النص المسرحي",
+            "url": ""
+          },
+          {
+            "name": "التقييم والدوسيمولوجيا",
+            "url": ""
+          },
+          {
+            "name": "تاريخ أفكار العلوم الإنسانية والاجتماعية",
+            "url": ""
+          },
+          {
+            "name": "Langue 6",
+            "url": ""
+          },
+          {
+            "name": "Action éducative en établissement scolaire 6",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "t": "Mathématiques",
+    "s": [
+      {
+        "n": "S1",
+        "m": [
+          {
+            "name": "Analyse 1: suites numériques et fonctions",
+            "url": ""
+          },
+          {
+            "name": "Algèbre 1: Généralités et arithmétique dans Z",
+            "url": ""
+          },
+          {
+            "name": "Algèbre 2: structures, polynômes et fraction rationnelles",
+            "url": ""
+          },
+          {
+            "name": "Statistique descriptive et introduction à la probabilité",
+            "url": ""
+          },
+          {
+            "name": "Thermodynamique",
+            "url": ""
+          },
+          {
+            "name": "Informatique 1: introduction à l'informatique",
+            "url": ""
+          },
+          {
+            "name": "Méthodologie du travail universitaire, Digital skills, - Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S2",
+        "m": [
+          {
+            "name": "Analyse 2: Intégration",
+            "url": ""
+          },
+          {
+            "name": "Analyse 3: Formule de Taylor, développement limité et Applications",
+            "url": ""
+          },
+          {
+            "name": "Algèbre 3: Espaces vectoriels, matrices et déterminants",
+            "url": ""
+          },
+          {
+            "name": "Electrostatique et magnétostatique",
+            "url": ""
+          },
+          {
+            "name": "Optique",
+            "url": ""
+          },
+          {
+            "name": "Informatique 2: Algorithmes et programmation",
+            "url": ""
+          },
+          {
+            "name": "Digital Skills en éducation - Langue 2",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S3",
+        "m": [
+          {
+            "name": "Analyse 4: Séries numériques; Suites et séries de fonctions",
+            "url": ""
+          },
+          {
+            "name": "Analyse 5: Fonctions de plusieurs variables",
+            "url": ""
+          },
+          {
+            "name": "Algèbre 4: Réduction des endomorphismes, applications",
+            "url": ""
+          },
+          {
+            "name": "Mécanique du point matériel et Mécanique du solide",
+            "url": ""
+          },
+          {
+            "name": "Informatique 3: Algorithmique et programmation",
+            "url": ""
+          },
+          {
+            "name": "Sciences de l'éducation",
+            "url": ""
+          },
+          {
+            "name": "Développement personnel, Langue 3",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S4",
+        "m": [
+          {
+            "name": "Analyse 6: Calcul inégralet formes différentielles",
+            "url": ""
+          },
+          {
+            "name": "Algèbre 5: Dualité, espaces euclidiens, espace hermitiens",
+            "url": ""
+          },
+          {
+            "name": "Analyse numérique",
+            "url": ""
+          },
+          {
+            "name": "Variables aléatoires et lois et introduction à la statistique inférentielle",
+            "url": ""
+          },
+          {
+            "name": "Informatique 4: Algorithmique et structure des données",
+            "url": ""
+          },
+          {
+            "name": "Approches et Méthodes didactiques",
+            "url": ""
+          },
+          {
+            "name": "Histoire, art et patrimoine du Maroc",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S5",
+        "m": [
+          {
+            "name": "Topologie générale",
+            "url": ""
+          },
+          {
+            "name": "Algèbre 6: Structures algébriques",
+            "url": ""
+          },
+          {
+            "name": "Mesure et intégration",
+            "url": ""
+          },
+          {
+            "name": "Didactique de la matière (Mathématiques)",
+            "url": ""
+          },
+          {
+            "name": "Déontologie du métier et éducation aux valeurs",
+            "url": ""
+          },
+          {
+            "name": "Droit, civisme et citoyenneté",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S6",
+        "m": [
+          {
+            "name": "Optimisation et calcul différentiel",
+            "url": ""
+          },
+          {
+            "name": "Algèbre et Géométrie",
+            "url": ""
+          },
+          {
+            "name": "Analyse complexe",
+            "url": ""
+          },
+          {
+            "name": "Histoire et épistémologie des Sciences Mathématiques",
+            "url": ""
+          },
+          {
+            "name": "Docimologie et évaluation",
+            "url": ""
+          },
+          {
+            "name": "Langue 6",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "t": "Sciences de la Vie et de la Terre",
+    "s": [
+      {
+        "n": "S1",
+        "m": [
+          {
+            "name": "Histologie et embryologie",
+            "url": ""
+          },
+          {
+            "name": "Biologie Cellulaire",
+            "url": ""
+          },
+          {
+            "name": "Géologie générale",
+            "url": ""
+          },
+          {
+            "name": "Mathematiques",
+            "url": ""
+          },
+          {
+            "name": "Physique",
+            "url": ""
+          },
+          {
+            "name": "Chimie",
+            "url": ""
+          },
+          {
+            "name": "Méthodologie de travail universitaire - Digital skills - Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S2",
+        "m": [
+          {
+            "name": "Biologie des organismes animaux",
+            "url": ""
+          },
+          {
+            "name": "Biologie des organismes végétaux",
+            "url": ""
+          },
+          {
+            "name": "Biochimie structurale",
+            "url": ""
+          },
+          {
+            "name": "Géodynamique externe",
+            "url": ""
+          },
+          {
+            "name": "Géodynamique interne",
+            "url": ""
+          },
+          {
+            "name": "Microbiologie générale",
+            "url": ""
+          },
+          {
+            "name": "Digital skills en éducation et Langue 2",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S3",
+        "m": [
+          {
+            "name": "Biochimie métabolique",
+            "url": ""
+          },
+          {
+            "name": "Physiologie animale",
+            "url": ""
+          },
+          {
+            "name": "Génétique générale",
+            "url": ""
+          },
+          {
+            "name": "Sédimentologie et stratigraphie",
+            "url": ""
+          },
+          {
+            "name": "Pétrologie magmatique et métamorphique",
+            "url": ""
+          },
+          {
+            "name": "Sciences d'éducation",
+            "url": ""
+          },
+          {
+            "name": "Développement personnel - Langue 3",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S4",
+        "m": [
+          {
+            "name": "Immunologie",
+            "url": ""
+          },
+          {
+            "name": "Faunistique / Floristique",
+            "url": ""
+          },
+          {
+            "name": "Physiologie végétale",
+            "url": ""
+          },
+          {
+            "name": "Paléontologie",
+            "url": ""
+          },
+          {
+            "name": "Géologie structurale",
+            "url": ""
+          },
+          {
+            "name": "Didactique des SVT 1",
+            "url": ""
+          },
+          {
+            "name": "Histoire, art et patrimoine du Maroc & Langue 4",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S5",
+        "m": [
+          {
+            "name": "Géologie appliquée / Géomatique",
+            "url": ""
+          },
+          {
+            "name": "Écologie générale 1",
+            "url": ""
+          },
+          {
+            "name": "Nutrition / physiologie des grandes fonctions",
+            "url": ""
+          },
+          {
+            "name": "Approches et méthodes",
+            "url": ""
+          },
+          {
+            "name": "Histoire des idées",
+            "url": ""
+          },
+          {
+            "name": "Droit, civisme et citoyenneté et Langue 5",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S6",
+        "m": [
+          {
+            "name": "Géologie du Maroc",
+            "url": ""
+          },
+          {
+            "name": "Biologie Moléculaire / Génétique des populations",
+            "url": ""
+          },
+          {
+            "name": "Écologie générale 2",
+            "url": ""
+          },
+          {
+            "name": "Didactique des SVT 2 et techniques d'animation",
+            "url": ""
+          },
+          {
+            "name": "Déontologie du métier",
+            "url": ""
+          },
+          {
+            "name": "Langue 6",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "t": "Physique et Chimie",
+    "s": [
+      {
+        "n": "S1",
+        "m": [
+          {
+            "name": "Mécanique du point",
+            "url": ""
+          },
+          {
+            "name": "Thermodynamique",
+            "url": ""
+          },
+          {
+            "name": "Atomistique",
+            "url": ""
+          },
+          {
+            "name": "Chimie des solutions",
+            "url": ""
+          },
+          {
+            "name": "Analyse 1",
+            "url": ""
+          },
+          {
+            "name": "Algèbre 1",
+            "url": ""
+          },
+          {
+            "name": "Méthodologie de travail universitaire, Digital skills et Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S2",
+        "m": [
+          {
+            "name": "Électrostatique et magnétostatique",
+            "url": ""
+          },
+          {
+            "name": "Optique géométrique",
+            "url": ""
+          },
+          {
+            "name": "Liaisons chimiques",
+            "url": ""
+          },
+          {
+            "name": "Thermodynamique chimique",
+            "url": ""
+          },
+          {
+            "name": "Analyse 2",
+            "url": ""
+          },
+          {
+            "name": "Algèbre 2",
+            "url": ""
+          },
+          {
+            "name": "Digital skills en éducation et Langue 2",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S3",
+        "m": [
+          {
+            "name": "Mécanique du solide",
+            "url": ""
+          },
+          {
+            "name": "Électromagnétisme dans le vide",
+            "url": ""
+          },
+          {
+            "name": "Électrocinétique",
+            "url": ""
+          },
+          {
+            "name": "Cristallographie et cristallochimie",
+            "url": ""
+          },
+          {
+            "name": "Chimie organique 1",
+            "url": ""
+          },
+          {
+            "name": "Sciences de l'éducation",
+            "url": ""
+          },
+          {
+            "name": "Développement personnel - Langue3",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S4",
+        "m": [
+          {
+            "name": "Propagation d'ondes",
+            "url": ""
+          },
+          {
+            "name": "Électromagnétisme dans la matière",
+            "url": ""
+          },
+          {
+            "name": "Optique ondulatoire",
+            "url": ""
+          },
+          {
+            "name": "Chimie descriptive et diagrammes de phase",
+            "url": ""
+          },
+          {
+            "name": "Chimie organique 2",
+            "url": ""
+          },
+          {
+            "name": "Approches et méthodes didactiques",
+            "url": ""
+          },
+          {
+            "name": "Histoire, art et patrimoine du Maroc & Langue 4",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S5",
+        "m": [
+          {
+            "name": "Mécanique quantique",
+            "url": ""
+          },
+          {
+            "name": "Électronique",
+            "url": ""
+          },
+          {
+            "name": "Électrochimie, cinétique et catalyse",
+            "url": ""
+          },
+          {
+            "name": "Didactique de la Physique - Chimie",
+            "url": ""
+          },
+          {
+            "name": "Déontologie du métier et législation scolaire",
+            "url": ""
+          },
+          {
+            "name": "Droit, civisme et citoyenneté et Langue 5",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S6",
+        "m": [
+          {
+            "name": "Physique statistique",
+            "url": ""
+          },
+          {
+            "name": "Physique atomique et éléments de physique nucléaire",
+            "url": ""
+          },
+          {
+            "name": "Méthodes de séparation, d'analyse et de dosage",
+            "url": ""
+          },
+          {
+            "name": "Histoire et épistémologie des Sciences physiques et chimie",
+            "url": ""
+          },
+          {
+            "name": "Docimologie et évaluation",
+            "url": ""
+          },
+          {
+            "name": "Langue 6",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "t": "Licence d’Éducation – Enseignement Secondaire -Enseignement Primaire – ESEFA",
+    "s": [
+      {
+        "n": "S1",
+        "m": [
+          {
+            "name": "Arabe",
+            "url": ""
+          },
+          {
+            "name": "Français 1: Langue et communication",
+            "url": ""
+          },
+          {
+            "name": "Mathématiques 1",
+            "url": ""
+          },
+          {
+            "name": "Sciences 1: Sciences de la vie et de la terre",
+            "url": ""
+          },
+          {
+            "name": "Histoire et géographie",
+            "url": ""
+          },
+          {
+            "name": "Sciences de l'éducation",
+            "url": ""
+          },
+          {
+            "name": "Méthodologie de travail universitaire - Digital skills - Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S2",
+        "m": [
+          {
+            "name": "Arabe 2",
+            "url": ""
+          },
+          {
+            "name": "Français 2: Langue et textes littéraires",
+            "url": ""
+          },
+          {
+            "name": "Mathématiques 2",
+            "url": ""
+          },
+          {
+            "name": "Scien ces 2: Physique & chimie",
+            "url": ""
+          },
+          {
+            "name": "Education Islamique",
+            "url": ""
+          },
+          {
+            "name": "Didactique générale",
+            "url": ""
+          },
+          {
+            "name": "Digital skills en éducation et Langue 2",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S3",
+        "m": [
+          {
+            "name": "Arabe 3",
+            "url": ""
+          },
+          {
+            "name": "Français 3",
+            "url": ""
+          },
+          {
+            "name": "Mathématiques 3",
+            "url": ""
+          },
+          {
+            "name": "Psychologie de développement",
+            "url": ""
+          },
+          {
+            "name": "Didactique de l'éveil scientifique 1",
+            "url": ""
+          },
+          {
+            "name": "Didactique de l'histoire et Géographie",
+            "url": ""
+          },
+          {
+            "name": "Développement personnel -Langue 3",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S4",
+        "m": [
+          {
+            "name": "Didactique de la langue arabe 1",
+            "url": ""
+          },
+          {
+            "name": "Didactique de la langue française 1",
+            "url": ""
+          },
+          {
+            "name": "Didactique des mathématiques 1",
+            "url": ""
+          },
+          {
+            "name": "Sociologie de l'éducation",
+            "url": ""
+          },
+          {
+            "name": "Didactique de l' éveil scientifique 2",
+            "url": ""
+          },
+          {
+            "name": "Didactique de l'éducation islamique",
+            "url": ""
+          },
+          {
+            "name": "Histoire, art et patrimoine du Maroc - Langue 4",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S5",
+        "m": [
+          {
+            "name": "Didactique de la langue arabe 2",
+            "url": ""
+          },
+          {
+            "name": "Didactique de la langue française 2",
+            "url": ""
+          },
+          {
+            "name": "Didactique des mathématiques 2",
+            "url": ""
+          },
+          {
+            "name": "Education Physique et Sportive (EPS)",
+            "url": ""
+          },
+          {
+            "name": "Docimologie et évaluation",
+            "url": ""
+          },
+          {
+            "name": "Droit, civisme et ci toyenne té - Langue 5",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S6",
+        "m": [
+          {
+            "name": "Déontologie du métier et législation scolaire",
+            "url": ""
+          },
+          {
+            "name": "Techniques d'animation",
+            "url": ""
+          },
+          {
+            "name": "Approches et méthodes PPO et APC",
+            "url": ""
+          },
+          {
+            "name": "Education plastique et développement psychosociomoteur",
+            "url": ""
+          },
+          {
+            "name": "Langue et culture Amazighe",
+            "url": ""
+          },
+          {
+            "name": "Langue 6",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "t": "Option Amazigh",
+    "s": [
+      {
+        "n": "S1",
+        "m": [
+          {
+            "name": "Langue amazighe 1 (Initiation)",
+            "url": ""
+          },
+          {
+            "name": "Français 1",
+            "url": ""
+          },
+          {
+            "name": "Mathématiques 1",
+            "url": ""
+          },
+          {
+            "name": "Sciences 1",
+            "url": ""
+          },
+          {
+            "name": "Langue amazighe 2 (Histoire et civilisation amazighes)",
+            "url": ""
+          },
+          {
+            "name": "Sciences de l’éducation",
+            "url": ""
+          },
+          {
+            "name": "Méthodologie de travail universitaire- Digital skills - Langue 1",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S2",
+        "m": [
+          {
+            "name": "Langue amazighe 3 (Grammaire)",
+            "url": ""
+          },
+          {
+            "name": "Français 2",
+            "url": ""
+          },
+          {
+            "name": "Mathématiques 2",
+            "url": ""
+          },
+          {
+            "name": "Sciences 2",
+            "url": ""
+          },
+          {
+            "name": "Langue amazighe 4 (Littérature amazighe)",
+            "url": ""
+          },
+          {
+            "name": "Introduction à la didactique",
+            "url": ""
+          },
+          {
+            "name": "Digital skills en éducation - Langue 2",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S3",
+        "m": [
+          {
+            "name": "Langue amazighe 5 (Syntaxe)",
+            "url": ""
+          },
+          {
+            "name": "Français 3",
+            "url": ""
+          },
+          {
+            "name": "Mathématiques 3",
+            "url": ""
+          },
+          {
+            "name": "Psychologie de développement",
+            "url": ""
+          },
+          {
+            "name": "Didactique de l’éveil scientiﬁque 1",
+            "url": ""
+          },
+          {
+            "name": "Didactique de la langue amazighe 1 (de l’oral)",
+            "url": ""
+          },
+          {
+            "name": "Développement personnel - Langue3",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S4",
+        "m": [
+          {
+            "name": "Langue amazighe 6 (aménagement linguistique)",
+            "url": ""
+          },
+          {
+            "name": "Didactique de la langue française 1",
+            "url": ""
+          },
+          {
+            "name": "Didactique des mathématiques 1",
+            "url": ""
+          },
+          {
+            "name": "Sociologie de l’éducation",
+            "url": ""
+          },
+          {
+            "name": "Didactique de l’éveil scientiﬁque 2",
+            "url": ""
+          },
+          {
+            "name": "Didactique de la langue amazighe 2 (de l’écrit)",
+            "url": ""
+          },
+          {
+            "name": "Histoire, art et patrimoine du Maroc - Langue 4",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S5",
+        "m": [
+          {
+            "name": "Manuels scolaires de l’amazighe",
+            "url": ""
+          },
+          {
+            "name": "Didactique de la langue française 2",
+            "url": ""
+          },
+          {
+            "name": "Didactique des mathématiques2",
+            "url": ""
+          },
+          {
+            "name": "EPS et développement psycho-socio-moteur",
+            "url": ""
+          },
+          {
+            "name": "Docimologie et évaluation",
+            "url": ""
+          },
+          {
+            "name": "Droit, civisme et citoyenneté – Langue 5",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "n": "S6",
+        "m": [
+          {
+            "name": "Langue 6",
+            "url": ""
+          },
+          {
+            "name": "Techniques d’animation",
+            "url": ""
+          },
+          {
+            "name": "Approches et méthodes PPO et APC",
+            "url": ""
+          },
+          {
+            "name": "Education artistique et développement pchosociomoteu",
+            "url": ""
+          },
+          {
+            "name": "Initiation à la traduction",
+            "url": ""
+          },
+          {
+            "name": "Déontologie du métier et législation scolaire",
+            "url": ""
+          },
+          {
+            "name": "Action éducative",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  }
+]

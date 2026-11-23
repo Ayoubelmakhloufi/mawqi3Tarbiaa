@@ -1,0 +1,171 @@
+# ==========================================================
+#  منصة تربية — tarbiaa.ma
+#  يجب أن يُرفع هذا الملف باسم ".htaccess" بالنقطة في المقدمة.
+# ==========================================================
+
+Options -Indexes
+DirectoryIndex index.php index.html
+
+AddDefaultCharset UTF-8
+
+ErrorDocument 404 /404.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# ---------- 1) توحيد البروتوكول والنطاق ----------
+# فرض HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# توحيد النطاق على tarbiaa.ma بدون www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
+# ---------- 2) روابط نظيفة: إخفاء امتداد .php ----------
+# ملاحظة: العلم NE ضروري — بدونه يعيد mod_rewrite ترميز علامة % في المسارات
+# العربية المرمّزة (%D8 تصير %25D8) فينكسر رابط الحاسبة.
+
+# /index.php  ->  /
+RewriteCond %{THE_REQUEST} \s/+(.*?)index\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# /privacy.php -> /privacy
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# ---------- 3) الروابط القديمة ----------
+# الصفحة الرئيسية القديمة
+RewriteRule ^index\.html$ / [R=301,L]
+
+# ⚠️ رابط الحاسبة العمومي محفوظ كما هو: /حساب_معدل_الانتقاء
+# سبق أن شورك مع المستخدمين، فلا يُحوَّل إلى أي رابط آخر ويُقدَّم مباشرة برمز 200.
+#
+# لكن الملف على القرص اسمه لاتيني: hisab-mouaddal-intiqa.php
+# السبب: أدوات فك ضغط ZIP في cPanel تُشوّه أسماء الملفات العربية، فيختفي الملف بعد الرفع.
+# فصل «الرابط العربي» عن «اسم الملف اللاتيني» يجعل الصفحة محصّنة ضد أي أداة رفع.
+RewriteRule ^حساب_معدل_الانتقاء/?$ hisab-mouaddal-intiqa.php [L]
+
+# النسخة القديمة بامتداد .html تُحوَّل تحويلًا دائمًا إلى الرابط المعتمد.
+# الهدف مكتوب بالترميز المئوي ليكون رأس Location صالحًا في كل المتصفحات.
+RewriteRule ^حساب_معدل_الانتقاء\.html$ /%D8%AD%D8%B3%D8%A7%D8%A8_%D9%85%D8%B9%D8%AF%D9%84_%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%A1 [R=301,L,NE]
+
+# الاسم اللاتيني ليس رابطًا عموميًا: يُحوَّل إلى الرابط المعتمد منعًا لازدواج المحتوى.
+RewriteRule ^hisab-mouaddal-intiqa/?$ /%D8%AD%D8%B3%D8%A7%D8%A8_%D9%85%D8%B9%D8%AF%D9%84_%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%A1 [R=301,L,NE]
+
+# احتياط: المسار اللاتيني القديم من النسخة التجريبية.
+RewriteRule ^adawat/hisab-mouaddal-intiqa/?$ /%D8%AD%D8%B3%D8%A7%D8%A8_%D9%85%D8%B9%D8%AF%D9%84_%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%A1 [R=301,L,NE]
+
+# ---------- 4) روابط Google Play Console: تبقى تعمل كما هي ----------
+# إعادة كتابة داخلية (200 لا 301) حتى لا تتأثر الروابط المسجّلة في متجر Play.
+# وسم canonical داخل الصفحتين يشير إلى /privacy و /delete-account لتفادي ازدواج المحتوى.
+RewriteRule ^privacy\.html$ privacy.php [L]
+RewriteRule ^delete-account\.html$ delete-account.php [L]
+
+# ---------- 5) خريطة الموقع تُولَّد ديناميكيًا ----------
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+RewriteRule ^rss\.xml$ rss.php [L]
+
+# ---------- 6) منع الوصول المباشر لملفات النظام ----------
+RewriteRule ^(partials|data|_backup)(/|$) - [F,L]
+RewriteRule ^_dev-router\.php$ - [F,L]
+
+# ---------- 6أ) صفحة مجال في المعجم ----------
+# /moujam/majal/<المعرّف>  ->  moujam/majal.php?c=<المعرّف>
+# ⚠️ يجب أن تسبق قاعدة المصطلح، وإلا التقطت تلك «majal» على أنه معرّف مصطلح.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^moujam/majal/([a-z0-9-]+)/?$ moujam/majal.php?c=$1 [L,QSA]
+
+# ---------- 6ب) صفحة مستقلة لكل مصطلح في المعجم ----------
+# /moujam/<المعرّف>  ->  moujam/term.php?s=<المعرّف>   (إعادة كتابة داخلية، 200)
+# لا تلتقط القاعدة /moujam/ نفسها لأن المعرّف لا يقل عن حرف واحد،
+# ولا تلتقط أي ملف موجود فعلًا (الشرط !-f) حتى يبقى term.php وغيره في متناول Apache.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^moujam/([a-z0-9-]+)/?$ moujam/term.php?s=$1 [L,QSA]
+
+# ---------- 7) توجيه الروابط النظيفة إلى ملفاتها ----------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# احتياط للملفات القديمة بامتداد .html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+</IfModule>
+
+# ---------- الضغط ----------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+  AddOutputFilterByType DEFLATE application/javascript application/x-javascript
+  AddOutputFilterByType DEFLATE application/json application/xml
+  AddOutputFilterByType DEFLATE application/rss+xml image/svg+xml
+  AddOutputFilterByType DEFLATE font/woff2 application/manifest+json
+</IfModule>
+
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# ---------- التخزين المؤقت في المتصفح ----------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault                          "access plus 1 month"
+  ExpiresByType text/html                 "access plus 0 seconds"
+  ExpiresByType application/xml           "access plus 0 seconds"
+  ExpiresByType text/css                  "access plus 1 year"
+  ExpiresByType application/javascript    "access plus 1 year"
+  ExpiresByType image/webp                "access plus 1 year"
+  ExpiresByType image/jpeg                "access plus 1 year"
+  ExpiresByType image/png                 "access plus 1 year"
+  ExpiresByType image/svg+xml             "access plus 1 year"
+  ExpiresByType font/woff2                "access plus 1 year"
+  ExpiresByType application/manifest+json "access plus 1 week"
+</IfModule>
+
+# ---------- ترويسات الأمان ----------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+  # HSTS: فعّله فقط بعد التأكد من عمل HTTPS على كل النطاقات الفرعية
+  # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header unset X-Powered-By
+</IfModule>
+
+# ---------- أنواع الملفات ----------
+<IfModule mod_mime.c>
+  AddType image/webp                    .webp
+  AddType image/svg+xml                 .svg
+  AddType application/manifest+json     .webmanifest
+  AddType font/woff2                    .woff2
+</IfModule>
+
+# ---------- حماية الملفات الحساسة ----------
+<FilesMatch "^\.|(\.(json|md|log|bak|config|dist|yml|lock)|package(-lock)?\.json|tailwind\.config\.js|src\.css)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+# استثناء الملفات العمومية التي يجب أن تبقى متاحة
+<Files "site.webmanifest">
+  <IfModule mod_authz_core.c>
+    Require all granted
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Allow from all
+  </IfModule>
+</Files>

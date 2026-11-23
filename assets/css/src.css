@@ -1,0 +1,325 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    font-family: 'Tajawal', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+  [x-cloak] {
+    display: none !important;
+  }
+  /* هدف تمرير مريح تحت الهيدر اللاصق */
+  :target {
+    scroll-margin-top: 6rem;
+  }
+}
+
+@layer components {
+  /* ═══ ضبط النص (المحاذاة المزدوجة) ═══
+     على الشاشات العريضة فقط: السطر هناك طويل بما يكفي فتبدو المسافات طبيعية.
+     أما على الهاتف فالسطر ضيق، والضبط يُحدث فجوات قبيحة بين الكلمات العربية.
+     ملاحظة: «الكشيدة» (text-justify: kashida) لا تدعمها المتصفحات الحديثة. */
+  @media (min-width: 768px) {
+    .article-body p,
+    .article-body li {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+
+  /* ═══ شريط تقدّم القراءة ═══ */
+  .read-progress {
+    position: fixed;
+    top: 0;
+    inset-inline: 0;
+    height: 3px;
+    z-index: 60;
+    background: transparent;
+    pointer-events: none;
+  }
+  .read-progress > span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: theme('colors.accent');
+    transition: width 0.1s linear;
+  }
+
+  /* ═══ زر الصعود إلى الأعلى ═══ */
+  .to-top {
+    position: fixed;
+    inset-inline-start: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 50;
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background: theme('colors.primary');
+    color: #fff;
+    box-shadow: 0 10px 25px -5px rgb(31 69 41 / 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0.75rem);
+    transition: opacity 0.25s, transform 0.25s, visibility 0.25s, background-color 0.2s;
+  }
+  .to-top:hover {
+    background: theme('colors.secondary');
+  }
+  .to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .to-top,
+    .read-progress > span {
+      transition: none;
+    }
+  }
+
+  .gradient-bg {
+    background: linear-gradient(135deg, #1f4529 0%, #052300 100%);
+  }
+
+  /* حركة فتح الأسئلة الشائعة بـ CSS خالص — لا x-transition حتى لا يتأخر طي اللوحات */
+  .faq-panel {
+    animation: tb-faq-in 0.2s ease-out;
+  }
+
+  @keyframes tb-faq-in {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .faq-panel {
+      animation: none;
+    }
+  }
+
+  .animate-float {
+    animation: tb-float 6s ease-in-out infinite;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .screenshot-card {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .screenshot-card:hover {
+    transform: scale(1.04) rotate(1deg);
+  }
+
+  /*
+   * أنماط محتوى المقالات.
+   * بفضل هذه القواعد يُكتب جسم المقال بوسوم HTML عادية (h2, p, ul, table…)
+   * دون الحاجة لأي صنف Tailwind، ودون إعادة تصريف CSS عند كل نشر.
+   */
+  .article-body {
+    @apply text-[17px] leading-[2] text-slate-700;
+  }
+  .article-body > * + * {
+    @apply mt-5;
+  }
+  .article-body h2 {
+    @apply text-2xl md:text-3xl font-black text-primary mt-12 mb-4 scroll-mt-28 leading-snug;
+  }
+  .article-body h3 {
+    @apply text-xl md:text-2xl font-black text-secondary mt-9 mb-3 scroll-mt-28 leading-snug;
+  }
+  .article-body h4 {
+    @apply text-lg font-bold text-slate-800 mt-7 mb-2;
+  }
+  .article-body p {
+    @apply leading-[2];
+  }
+  .article-body a {
+    @apply text-secondary font-bold underline decoration-accent/40 decoration-2 underline-offset-4 hover:text-primary hover:decoration-accent transition-colors;
+  }
+  .article-body strong,
+  .article-body b {
+    @apply font-black text-slate-900;
+  }
+  .article-body ul,
+  .article-body ol {
+    @apply space-y-2.5 pr-6;
+  }
+  .article-body ul {
+    @apply list-disc marker:text-accent;
+  }
+  .article-body ol {
+    @apply list-decimal marker:text-accent marker:font-black;
+  }
+  .article-body li::marker {
+    @apply text-accent;
+  }
+  .article-body blockquote {
+    @apply border-r-4 border-accent bg-slate-50 rounded-l-2xl py-4 px-6 text-slate-600 italic;
+  }
+  .article-body figure {
+    @apply my-8;
+  }
+  .article-body img {
+    @apply rounded-2xl ring-1 ring-slate-200 w-full h-auto;
+  }
+  .article-body figcaption {
+    @apply text-sm text-slate-400 text-center mt-3 font-medium;
+  }
+  .article-body hr {
+    @apply my-10 border-slate-200;
+  }
+  .article-body code {
+    @apply bg-slate-100 text-primary px-1.5 py-0.5 rounded font-mono text-[0.9em];
+  }
+
+  /* الجداول تُمرَّر أفقيًا على الهاتف بدل كسر تخطيط الصفحة */
+  .article-body .table-wrap,
+  .article-body table {
+    @apply block max-w-full overflow-x-auto;
+  }
+  .article-body table {
+    @apply w-full text-right text-[15px] border-collapse;
+  }
+  .article-body thead {
+    @apply bg-primary text-white;
+  }
+  .article-body th {
+    @apply px-4 py-3 font-black whitespace-nowrap;
+  }
+  .article-body td {
+    @apply px-4 py-3 border-b border-slate-200 align-top;
+  }
+  .article-body tbody tr:nth-child(even) {
+    @apply bg-slate-50;
+  }
+
+  /* صندوق تنبيه داخل المقال: <div class="note">…</div> */
+  .article-body .note {
+    @apply bg-amber-50 border-r-4 border-amber-400 rounded-l-2xl p-5 text-amber-900;
+  }
+  .article-body .note-info {
+    @apply bg-sky-50 border-r-4 border-sky-400 rounded-l-2xl p-5 text-sky-900;
+  }
+  .article-body .note-ok {
+    @apply bg-emerald-50 border-r-4 border-accent rounded-l-2xl p-5 text-emerald-900;
+  }
+  .article-body .note > :first-child,
+  .article-body .note-info > :first-child,
+  .article-body .note-ok > :first-child {
+    @apply mt-0;
+  }
+}
+
+@keyframes tb-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float {
+    animation: none;
+  }
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   أنماط الطباعة — الأساتذة يطبعون المقالات والوثائق كثيرًا.
+   نُخفي كل ما لا يفيد على الورق ونُظهر روابط المصادر.
+   ═══════════════════════════════════════════════════════ */
+@media print {
+  header,
+  footer,
+  .to-top,
+  .read-progress,
+  .no-print,
+  nav[aria-label='مسار التصفح'] {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 12pt;
+  }
+
+  main,
+  section,
+  article,
+  .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  .article-body {
+    text-align: right;
+  }
+
+  .article-body h2,
+  .article-body h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+    color: #000 !important;
+  }
+
+  .article-body table,
+  .article-body figure,
+  .article-body .note,
+  .article-body .note-info,
+  .article-body .note-ok {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .article-body table {
+    border-collapse: collapse;
+  }
+  .article-body th,
+  .article-body td {
+    border: 1px solid #999 !important;
+  }
+
+  /* إظهار وجهة الروابط الخارجية على الورق */
+  .article-body a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 9pt;
+    color: #555;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+
+  @page {
+    margin: 1.6cm;
+  }
+}
